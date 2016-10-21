@@ -8,9 +8,20 @@ and open the template in the editor.
     Author     : Rodrigo Serrano | Etic
 */
 
+
+
+a
+{
+    font-family: 'Signika', sans-serif!important;
+}
 p
 {
     font-size: 16px;
+    font-family: 'PT Sans', sans-serif!important;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'PT Sans', sans-serif!important;
 }
 li
 {
@@ -32,18 +43,74 @@ header.sticky {
 #menu-top
 {
     list-style: none;
-    margin-top: 20px;
+    margin-top: 26px;
+    float: right;
 
 }
 #menu-top li
 {
     display: inline-block;
+    margin-right: 2px;
+    margin-left: 2px;
+        
 }
 #menu-top li a
 {
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 15px;
+    color: #004B85;
 }
+
+/*sub-menu*/
+#sobre-nosaltres-sub
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sub-menu-head
+{
+    background-color: #fff;
+    width: 100%;
+    display: none;
+    margin-top: 1px;
+}
+.sub-menu-head a
+{
+    color: #004B85;
+    font-size: 15px;
+}
+.sub-menu-head  a:hover
+{
+    color: #EB281A;
+}
+.sub-menu-head img
+{
+    max-width: 225px;
+}
+.col-blue-sub
+{
+    background-color: #EAEEF1;
+
+}
+.padd-sub-menu
+{
+    padding: 30px 30px 30px 30px;
+}
+.selector-sub
+{
+    pointer-events: none;
+    cursor: pointer;
+}
+.active-sub
+{
+    border-bottom: 2px solid red;
+    padding-bottom: 20px;
+}
+#content-sub-menu
+{
+    background-color: transparent!important;
+}
+/*sub-menu*/
 
 #owl-demo .item img
 {
@@ -624,6 +691,20 @@ header.sticky {
     padding-right: 15px;
     margin-top: 20px;
 }
+#content-faqs .more-info-faqs
+{
+    width: 273px;
+    background-color: #436479;
+    color: #fff;
+    font-size: 14px;
+    height: 46px;
+    border-radius: 0px;
+    float: right;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
 
 #content-faqs
 {
@@ -843,6 +924,7 @@ header.sticky {
 {
     padding-left: 20px;
     color: #436479;
+    font-family: 'Signika', sans-serif!important;
 }
 .nosaltres-news
 {
@@ -1036,6 +1118,7 @@ header.sticky {
 {
     padding-left: 20px;
     color: #436479;
+    font-family: 'Signika', sans-serif!important;
 }
 
 #info-general-transport-tn

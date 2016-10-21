@@ -6,12 +6,12 @@
             </h1>
             <div id="content-menu-transport">
                 <div class="option-menu-transport">
-                    <a href="#tranport-bellears">
+                    <a href="transport-maritim-pais.php">
                         USA Costa Est
                     </a>
                 </div>
                 <div class="option-menu-transport">
-                    <a href="#tranport-canaries">
+                    <a href="transport-maritim-pais.php">
                         USA Costa Oest
                     </a>
                 </div>

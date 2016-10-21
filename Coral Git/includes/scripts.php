@@ -28,5 +28,25 @@
                     // itemsMobile : false
 
         });
+
+        $("#nosaltres").click(function () {
+            $(this).addClass("active-sub");
+            $("#transport").removeClass("active-sub");
+            $(".sub-menu-head").hide();
+            $("#sobre-nosaltres-sub").slideToggle("slow", function () {
+                // Animation complete.
+            });
+        });
+        
+        
+        $("#transport").click(function () {
+            $(this).addClass("active-sub");
+            $("#nosaltres").removeClass("active-sub");
+            $(".sub-menu-head").hide();
+            $("#transport-sub").slideToggle("slow", function () {
+                // Animation complete.
+            });
+        });
+
     });
 </script>

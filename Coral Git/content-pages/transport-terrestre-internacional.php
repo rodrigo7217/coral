@@ -6,17 +6,17 @@
             </h1>
             <div id="content-menu-transport">
                 <div class="option-menu-transport">
-                    <a href="#tranport-bellears">
+                    <a href="transport-terrestre-internacional-pais.php">
                         Alemanya
                     </a>
                 </div>
                 <div class="option-menu-transport">
-                    <a href="#tranport-canaries">
+                    <a href="transport-terrestre-internacional-pais.php">
                         Portugal
                     </a>
                 </div>
                 <div class="option-menu-transport">
-                    <a href="#transport-paqueteria">
+                    <a href="transport-terrestre-internacional-pais.php">
                         Polònia
                     </a>
                 </div>

@@ -12,16 +12,6 @@ and open the template in the editor.
         <?php include("includes/footer.php"); ?>
         <?php include("includes/menu-inferior.php"); ?>
         <?php include("includes/scripts.php"); ?>
-        <script>
-            $(".option-menu-transport").on("click", "a", function (e) {
-                e.preventDefault();
-                var id = $(this).attr("href"),
-                        topSpace = 30;
-                //alert(id);
-                $('html, body').animate({
-                    scrollTop: $(id).offset().top - topSpace
-                }, 800);
-            });
-        </script>
+
     </body>
 </html>
