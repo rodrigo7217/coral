@@ -71,7 +71,7 @@
                     <p>
                         Per dur a terme de forma eficient el transport nacional per carretera a tot Espanya, Coral forma part de la xarxa IBERTEAM amb 52 agències que ens permet una distribució capil·lar.
                     </p>
-                    <a href="#">
+                    <a href="transport-terrestre-nacional.php">
                         <button class="more-info-transport">més informació</button>
                     </a>
                     <div class="clearfix"></div>
@@ -84,7 +84,7 @@
                     <p>
                         La nostra organització disposa de serveis directes d’exportació i importació amb les principals capitals d’Europa CEE / EFTA, Països de l’Est i Balcans.     
                     </p>
-                    <a href="#">
+                    <a href="transport-terrestre-internacional.php">
                         <button class="more-info-transport">més informació</button>
                     </a>
                     <div class="clearfix"></div>
@@ -97,7 +97,7 @@
                     <p>
                         Treballem amb les millors companyies, les que responen a les nostres exigències de seguretat i rapidesa.    
                     </p>
-                    <a href="#">
+                    <a href="transport-maritim.php">
                         <button class="more-info-transport">més informació</button>
                     </a>
                     <div class="clearfix"></div>
@@ -110,7 +110,7 @@
                     <p>
                         Els nostres factors diferencials són la rapidesa i la precisió.    
                     </p>
-                    <a href="#">
+                    <a href="transport-aeri.php">
                         <button class="more-info-transport">més informació</button>
                     </a>
                     <div class="clearfix"></div>
@@ -153,7 +153,7 @@
                     <p>    
                         Comprovi-ho. Demani’ns una entrevista per veure com podem solucionar les seves necessitats logístiques.
                     </p>
-                    <a href="#">
+                    <a href="logistica-emmagatzematge.php">
                         <button class="more-info-transport blue-btn">més informació</button>
                     </a>
                 </div>
@@ -179,7 +179,7 @@
                     <p>    
                         Pel que fa a logística ADR, transport ADR i manipulació ADR, Coral Transports és l’especialista.    
                     </p>
-                    <a href="#">
+                    <a href="productes-quimics.php">
                         <button class="more-info-transport blue-btn">més informació</button>
                     </a>
                 </div>
@@ -304,7 +304,7 @@
                 Últimes Notícies i<br>
                 esdeveniments
             </h1>
-            <a href="#">
+            <a href="nosaltres-noticias.php">
                 <button class="more-info-news blue-btn">Veure totes les Notícies</button>
             </a>
         </div>
@@ -321,7 +321,7 @@
                         El pasado viernes día 29 de Abril tuvo lugar la NIT DE L’EMPRESARI, celebrado en Sitges en el Hotel Melià, conmemorando el 25 aniversario de este evento que organiza la ADEPG (Asociación de Empresarios del Garraf, Alt Penedès y Baix Penedès)
                     </p>
                     <div class="text-right link-news-bottom">
-                        <a href="#">
+                        <a href="nosaltres-news-view.php">
                             Llegir més <img src="./assets/img/home/icon-news.png"/>
                         </a>
                     </div>
@@ -341,7 +341,7 @@
                         Incorpora en sus instalaciones un desfibrilador para disponer de cobertura en equipamiento en caso de necesidad de intervenir en primeros auxilios tanto al personal interno como a los colaboradores que tienen presencia habitual en las instalaciones de la empresa.
                     </p>
                     <div class="text-right link-news-bottom">
-                        <a href="#">
+                        <a href="nosaltres-news-view.php">
                             Llegir més <img src="./assets/img/home/icon-news.png"/>
                         </a>
                     </div>
@@ -361,7 +361,7 @@
                         En Coral Transports & Stocks  hemos alcanzado un nuevo acuerdo de colaboración para cubrir semanalmente la ruta Barcelona – Casablanca.
                     </p>
                     <div class="text-right link-news-bottom">
-                        <a href="#">
+                        <a href="nosaltres-news-view.php">
                             Llegir més <img src="./assets/img/home/icon-news.png"/>
                         </a>
                     </div>
