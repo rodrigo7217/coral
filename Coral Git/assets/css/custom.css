@@ -7,6 +7,15 @@ and open the template in the editor.
     Created on : 16-oct-2016, 23:08:42
     Author     : Rodrigo Serrano | Etic
 */
+
+p
+{
+    font-size: 16px;
+}
+li
+{
+    font-size: 16px;
+}
 header
 {
 
@@ -878,7 +887,7 @@ header.sticky {
 {
     width: 100%;
     height: 100px;
-    border-bottom: 1px solid #42657B;
+    border-bottom: 1px solid #EBEFF2;
 }
 #return-all p a
 {
@@ -1002,12 +1011,12 @@ header.sticky {
 }
 .option-menu-transport
 {
-    width: 136px;
+    width: 170px;
     background-color: #436479;
     height: 46px;
     float: left;
     margin-right: 1px;
-    padding: 12px 10px 10px 10px;
+    padding: 12px 5px 10px 5px;
     text-align: center;
 }
 .option-menu-transport a
@@ -1151,11 +1160,11 @@ header.sticky {
 }
 .blue
 {
- background-color: #EBEFF2!important;   
+    background-color: #EBEFF2!important;   
 }
 .blue .tablev1 
 {
- background-color: #EBEFF2!important;   
+    background-color: #EBEFF2!important;   
 }
 
 #bottom-info-ttn h1
@@ -1164,4 +1173,168 @@ header.sticky {
     color: #416479;
     margin-bottom: 20px;
 }
+
+#transport-content-tti
+{
+    background-image: url(../img/transport/back-tti.png);
+    background-repeat: no-repeat;
+    background-size: 338px 468px;
+    background-position: right top;
+    background-color: #fff;
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.more-info-tti {
+    /* width: 273px; */
+    background-color: #436479;
+    color: #fff;
+    font-size: 14px;
+    height: 46px;
+    border-radius: 0px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.style-text-descarga-tti
+{
+    color: #416479;
+    font-size: 24px;
+}
+.content-descarga-tti
+{
+    margin-top: 120px;
+}
+.content-descarga-tti p
+{
+    width: 200px;
+    margin-top: 23px;
+    float: left;
+}
+.content-text-ttip
+{
+    margin-bottom: 80px;
+}
+#transport-pais-info .map-image-int-ttn
+{
+    margin-top: 0px;
+    width: auto;
+}
+#transport-pais-info .content-text-left-ttn
+{
+    padding-top: 0px;
+}
+#transport-pais-info .tablev1
+{
+    width: 100%;
+}
+.sub-head-tablev1 th
+{
+    background-color: #436479!important;
+    height: 40px!important;
+}
+.slim-celda
+{
+    height: 30px;
+}
 /*transport*/
+.slim-celda td
+{
+    height: 30px;
+}
+.bold-celd
+{
+    font-weight: bold!important;
+    font-size: 16px!important;
+}
+
+
+#transport-content-tm {
+    background-image: url(../img/transport/back-tm.png);
+    background-repeat: no-repeat;
+    background-size: 466px 448px;
+    background-position: right top;
+    background-color: #fff;
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.border-top-tm
+{
+    border-top: 1px solid #EBEFF2;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+#footer-tm img
+{
+    width: 100%;
+}
+
+
+#transport-content-ta {
+    background-image: url(../img/transport/back-ta.png);
+    background-repeat: no-repeat;
+    background-size: 555px 403px;
+    background-position: right top;
+    background-color: #fff;
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.more-info-faqs 
+{
+    width: 170px;
+    background-color: #436479;
+    color: #fff;
+    font-size: 14px;
+    height: 46px;
+    border-radius: 0px;
+    float: left;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+/*transport*/
+
+/*logistic*/
+#info-tranport h3
+{
+    font-size: 24px;
+    color: #416479;
+}
+#logistic-item-footer .item-info-galery-transport 
+{
+    padding: 20px 20px 20px 20px;
+    min-height: 86px;
+}
+#content-dis
+{
+    background-image: url(../img/contact/news-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #EBEFF2;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+}
+#content-dis h1
+{
+    font-size: 34px;
+    color: #416479;
+}
+/*logistic*/
+
+
+/*productes*/
+#productes .item-info-galery-transport 
+{
+    padding: 20px 20px 20px 20px;
+    min-height:104px;
+}
+/*productes*/
