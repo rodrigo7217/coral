@@ -19,7 +19,7 @@
                 <li class="divider">|</li>
                 <li><a href="#">Idiomes</a></li>
                 <li class="divider">|</li>
-                <li><a href="#"><img src="./assets/img/home/avatar-home.png"/></a></li>
+                <li><a href="#"><img id="icon-user" src="./assets/img/home/avatar-home.png"/></a></li>
             </ul>
         </div>
         <div id="sobre-nosaltres-sub" class="col-md-12 col-sm-12 col-xs-12 sub-menu-head">

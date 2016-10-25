@@ -228,6 +228,10 @@
                             <td><span>03</span> Alicante</td>
                             <td><span></span></td>
                         </tr>
+                        <tr>
+                            <td><span></span></td>
+                            <td><span></span></td>
+                        </tr>
                     </tbody>
                 </table>
 
@@ -289,6 +293,10 @@
                         <tr>
                             <td><span>16</span> Cuenca</td>
                             <td><span>49</span> Zamora</td>
+                        </tr>
+                        <tr>
+                            <td><span></span></td>
+                            <td><span></span></td>
                         </tr>
                     </tbody>
                 </table>

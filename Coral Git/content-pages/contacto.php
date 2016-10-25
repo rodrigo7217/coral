@@ -31,7 +31,7 @@
                     </p>
                 </div>
                 <div class="col-md-8 col-sm-8 col-xs-12 padd-right-cero">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.0013505375055!2d1.727999715494976!3d41.37405537926534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a47989082e54a5%3A0x77202897e06af314!2sCoral+Transports+%26+Stocks+S.L.!5e0!3m2!1ses!2smx!4v1476836363551" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5987.998897326062!2d1.7277561!3d41.3740967!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1477356084158" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>    
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -58,7 +58,7 @@
                     </p>
                 </div>
                 <div class="col-md-8 col-sm-8 col-xs-12 padd-right-cero">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.645749619579!2d-3.3994551845314747!3d40.483101479357444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4249be084f3fdd%3A0x3675b895c67b54fe!2sLa+Garena!5e0!3m2!1ses!2smx!4v1476837905323" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2551.84304833888!2d-3.3962347895371034!3d40.48256707319845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1477356238715" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>    
                 </div>
             </div>
             <div class="clearfix"></div>

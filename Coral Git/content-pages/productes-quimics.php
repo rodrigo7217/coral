@@ -20,7 +20,7 @@
                 Coral Transports és l’empresa de transports especialitzada en productes químics i ADR, el seu emmagatzematge, manipulació i transport. Per això disposem de les certificacions i la capacitat necessària.    
             </p>
         </div>
-        <div class="col-md-6 col-sm-6 col-xs-12 info-right-transport">
+        <div class="col-md-6 col-sm-6 col-xs-12 info-right-transport space-top-pq">
             <p>
                 Això ens distingeix com l’especialista ADR: una empresa que pot oferir-li la externalització dels processos logístics lligats als productes que requereixen una manipulació qualificada.
             </p>

@@ -25,10 +25,10 @@
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <h1>
-                        On vam arribar <img class="icon-world" src="./assets/img/home/icon-world.png"/>
+                        On vam arribar
                     </h1>
                     <form id="form-option-home">
-                        <select class="form-control">
+                        <select class="form-control select-home-style">
                             <option>Seleccioneu el país</option>
                             <option>2</option>
                             <option>3</option>
@@ -201,7 +201,6 @@
                 <h1 class="title-form">
                     Sol·licitud de pressupost
                 </h1>
-                <br/>
                 <p>
                     Indica'ns la teva necessitat i et contestem amb la millor solució
                 </p>
@@ -246,9 +245,11 @@
 </section>
 <section id="testimoniales">
     <div class="container">
-        <h1 class="title-test">Sabies que ?</h1>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <h1 class="title-test">Sabies que ?</h1>
+        </div>
         <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="col-md-3 col-sm-3 col-xs-12 padd-test-cero">
                 <img class="avatar-testimonial" src="./assets/img/home/testimonial-avatar.png"/>
             </div>
             <div class="col-md-9 col-sm-9 col-xs-12">
@@ -256,13 +257,13 @@
                     <img src="./assets/img/home/comas.png"/>
                 </p>
                 <p class="space-test">
-                    Vam gaudir nostra feina i això fa que els<br> nostres clients ho percebin.
+                    Vam gaudir nostra feina i això fa que els<br> nostres clients ho percebin.<br>
                     Bon dia a tots !
                 </p>
             </div>
         </div>
         <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="col-md-3 col-sm-3 col-xs-12 padd-test-cero">
                 <img class="avatar-testimonial" src="./assets/img/home/testimonial-avatar2.png"/>
             </div>
             <div class="col-md-9 col-sm-9 col-xs-12">

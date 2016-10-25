@@ -8,7 +8,10 @@ and open the template in the editor.
     Author     : Rodrigo Serrano | Etic
 */
 
-
+.container
+{
+    width: 1194px!important;
+}
 
 a
 {
@@ -40,6 +43,13 @@ header.sticky {
     position: fixed;
     z-index: 11;
 }
+
+#icon-user
+{
+    position: absolute;
+    top: 22px;
+}
+
 #menu-top
 {
     list-style: none;
@@ -52,13 +62,15 @@ header.sticky {
     display: inline-block;
     margin-right: 2px;
     margin-left: 2px;
-        
+
 }
 #menu-top li a
 {
     text-transform: uppercase;
     font-size: 15px;
     color: #004B85;
+    display: inline-block;
+    margin-top: 3px;
 }
 
 /*sub-menu*/
@@ -129,6 +141,10 @@ header.sticky {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.padd-options-slide-info h1
+{
+    margin-top: 10px;
+}
 .info-one
 {
     background-color: rgba(255, 255, 255, 0.1);
@@ -154,7 +170,7 @@ header.sticky {
     border-radius: 0px;
     border: 1px solid #fff;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 30px;
     height: 40px;
     color: #fff;
 }
@@ -163,11 +179,22 @@ header.sticky {
     background-color: transparent!important;
     color: #0B60A9!important;
 }
+.select-home-style
+{
+    border: 1px solid #ccc;
+    background: URL(../img/home/icn-arrow-down.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-position-x: 218px;
+}
 .info-two
 {
     border-left: 1px solid #fff;
     margin-top: 20px;
-    margin-bottom: 20px;
+
     min-height: 126px;
 }
 .info-two h1
@@ -363,6 +390,8 @@ header.sticky {
     height: 44px;
     background-color: #F4F6F8;
     border: 0px;
+    text-align: left;
+    padding-left: 20px;
 }
 #solicitar-presupuesto-form input
 {
@@ -371,11 +400,21 @@ header.sticky {
 }
 #solicitar-presupuesto-form h1
 {
-    margin-bottom: 26px;
+    margin-bottom: 30px;
+}
+#solicitar-presupuesto-form p
+{
+    color: #436379;
+}
+#solicitar-presupuesto-form label
+{
+    color: #3F4755;
+    font-family: 'PT Sans', sans-serif!important;
 }
 .title-form
 {
-
+    font-size: 48px;
+    color: #004B85;
 }
 
 #testimoniales
@@ -391,6 +430,7 @@ header.sticky {
 {
     margin-bottom: 60px;
     color: #1D5E9E;
+    font-size: 48px;
 }
 .comilla-test
 {
@@ -400,9 +440,18 @@ header.sticky {
 {
     float: left;
 }
+.padd-test-cero
+{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
 .space-test
 {
     padding-left: 20px;    
+    font-family: 'Signika', sans-serif!important;
+    font-size: 18px;
+    color: #4A697D;
+    font-style: italic;
 }
 .divider-test
 {
@@ -412,7 +461,7 @@ header.sticky {
 .divider-test hr
 {
     height: 1px;
-    background-color: #436379;
+    background-color: #fff;
 }
 
 .item-test-info h1
@@ -496,11 +545,12 @@ header.sticky {
     color: #fff;
     text-align: left;
     font-size: 48px;
+
 }
 
 #form-contact-footer .form-control
 {
-    background-color: #436479;
+    background-color: rgba(0, 74, 124, 0.4);
     height: 53px;
     border: 0px solid #fff;
     border-radius: 0px;
@@ -509,9 +559,30 @@ header.sticky {
     font-size: 20px; 
     border: 2px solid #698395;
 }
+
+.form-control::-webkit-input-placeholder {
+    color:  #839AA9!important;
+    font-size: 20px;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+    color:  #839AA9!important; 
+    font-size: 20px;
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+    color: #839AA9!important;  
+    font-size: 20px;
+}
+
+.form-control:-ms-input-placeholder {  
+    color: #839AA9!important;
+    font-size: 20px;
+}
+
 #form-contact-footer .text-area
 {
-    background-color: #436479;
+    background-color: rgba(0, 74, 124, 0.4);
     height: 160px;
     border: 2px solid #698395
 }
@@ -532,17 +603,22 @@ header.sticky {
     color: #365F7B;
     padding-left: 20px;
 }
-
+.item-dir-contact
+{
+    margin-bottom: 50px;
+}
 .item-dir-contact h1
 {
     font-size: 24px!important;
     margin-bottom: 12px;
     color: #DCEBF6!important;
+    font-family: 'Signika', sans-serif!important;
 }
 .item-dir-contact p
 {
     color: #A1B1BC;
     font-size: 18px;
+    font-family: 'Signika', sans-serif!important;
 }
 .icons-footer
 {
@@ -607,7 +683,7 @@ header.sticky {
 {
     background-image: url(../img/contact/news-back.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
     background-color: #EBEFF2;
     width: 100%;
     min-height: 500px;
@@ -696,7 +772,7 @@ header.sticky {
     width: 273px;
     background-color: #436479;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     height: 46px;
     border-radius: 0px;
     float: right;
@@ -704,6 +780,7 @@ header.sticky {
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 20px;
+    font-family: 'Signika', sans-serif!important;
 }
 
 #content-faqs
@@ -714,8 +791,9 @@ header.sticky {
 
 .icon-download-faqs
 {
-    margin-top: 0px;
-    float: right;
+    position: absolute;
+    right: 35px;
+    top: 12px;
 }
 .item-faqs
 {
@@ -728,6 +806,10 @@ header.sticky {
     color: #416479;
     font-size: 28px;
     margin-bottom: 20px;
+}
+.item-faqs p
+{
+    font-family: 'Signika', sans-serif !important;
 }
 /*contact*/
 
@@ -757,7 +839,7 @@ header.sticky {
     width: 216px;
     background-color: #436479;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     height: 46px;
     border-radius: 0px;
     text-align: left;
@@ -766,6 +848,12 @@ header.sticky {
     position: absolute;
     top: 0;
     right: 0;
+    font-family: 'Signika', sans-serif !important;
+}
+.btn:hover
+{
+    color: #fff;
+    text-decoration: underline;
 }
 
 #content-text-nosaltres
@@ -1039,6 +1127,10 @@ header.sticky {
     color: #212121;
     line-height: 24px;
 }
+.space-top-pq
+{
+    padding-top: 7px;
+}
 #galery-transport
 {
     background-image: url(../img/contact/news-back.png);
@@ -1222,7 +1314,7 @@ header.sticky {
 }
 .tablev1 tbody tr td
 {
-    padding: 20px 10px 10px 30px;
+    padding: 10px 10px 10px 30px;
     border-top: 0px;
 }
 .tablev1 span
@@ -1240,6 +1332,10 @@ header.sticky {
 {
     background-color: #fff;
     width: 100%;
+}
+.table-grid-ttn .tablev1
+{
+    border-right: 1px solid #EBEFF2;
 }
 .blue
 {
@@ -1374,7 +1470,7 @@ header.sticky {
     width: 170px;
     background-color: #436479;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     height: 46px;
     border-radius: 0px;
     float: left;
@@ -1382,6 +1478,12 @@ header.sticky {
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 20px;
+    font-family: 'Signika', sans-serif !important;
+}
+.more-info-faqs:hover
+{
+    color: #fff;
+    text-decoration: underline;
 }
 /*transport*/
 
