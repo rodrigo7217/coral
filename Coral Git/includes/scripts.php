@@ -3,16 +3,25 @@
 <!--owl-->
 <script src="./assets/js/owl-carousel/owl.carousel.js"></script>
 <script>
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 1) {
-            $('header').addClass("sticky");
-        } else {
-            $('header').removeClass("sticky");
-        }
-    });
-
-
     $(document).ready(function () {
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 1) {
+                $('header').addClass("sticky");
+                $('#content-menu-sec').addClass("space-sticky");
+            } else {
+                $('header').removeClass("sticky");
+                $('#content-menu-sec').removeClass("space-sticky");
+            }
+        });
+
+        $("#sobre-nosaltres-sub").mouseleave(function () {
+            $("#sobre-nosaltres-sub").hide();
+        });
+        $("#transport-sub").mouseleave(function () {
+            $("#transport-sub").hide();
+        });
+
 
         $("#owl-demo").owlCarousel({
             navigation: false, // Show next and prev buttons
@@ -37,8 +46,8 @@
                 // Animation complete.
             });
         });
-        
-        
+
+
         $("#transport").click(function () {
             $(this).addClass("active-sub");
             $("#nosaltres").removeClass("active-sub");

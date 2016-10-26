@@ -57,12 +57,12 @@
                 <span class="style-text-descarga-tti">Descàrregues</span>
             </p>
             <a href="#" target="_blank">
-                <button class="btn more-info-tti">
+                <button class="btn more-info-tti  btn-tm1">
                     Contenedors Marítims&nbsp;&nbsp;<img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                 </button>
             </a>
             <a href="#" target="_blank">
-                <button class="btn more-info-tti">
+                <button class="btn more-info-tti btn-tm2">
                     DGD Marítimo - Carta de Port&nbsp;&nbsp;<img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                 </button>
             </a> 

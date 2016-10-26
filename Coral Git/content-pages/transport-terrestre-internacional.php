@@ -2,7 +2,7 @@
     <div class="container">
         <div class="col-md-12 col-xs-12 col-sm-12">
             <h1>
-                Transport Terrestre Nacional
+                Transport Terrestre Internacional
             </h1>
             <div id="content-menu-transport">
                 <div class="option-menu-transport">
@@ -58,17 +58,17 @@
                     <span class="style-text-descarga-tti">Descàrregues</span>
                 </p>
                 <a href="#" target="_blank">
-                    <button class="btn more-info-tti">
+                    <button class="btn more-info-tti btn-tti1">
                         Carta de Port ADR&nbsp;&nbsp;<img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                     </button>
                 </a>
                 <a href="#" target="_blank">
-                    <button class="btn more-info-tti">
+                    <button class="btn more-info-tti btn-tti2">
                         Conveni TIR&nbsp;&nbsp;<img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                     </button>
                 </a>
                 <a href="#" target="_blank">
-                    <button class="btn more-info-tti">
+                    <button class="btn more-info-tti btn-tti3">
                         Conveni CMR ADR&nbsp;&nbsp;<img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                     </button>
                 </a>

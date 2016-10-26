@@ -19,7 +19,7 @@
                         Títol de document<br>
                         <a href="#" target="_blank">
                             <button class="btn more-info-faqs">
-                                Descàrrega <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
+                                Descàrregar <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                             </button>
                         </a>
                     </p>
@@ -36,7 +36,7 @@
                         Títol de document<br>
                         <a href="#" target="_blank">
                             <button class="btn more-info-faqs">
-                                Descàrrega <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
+                                Descàrregar <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                             </button>
                         </a>
                     </p>
@@ -53,7 +53,7 @@
                         Títol de document<br>
                         <a href="#" target="_blank">
                             <button class="btn more-info-faqs">
-                                Descàrrega <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
+                                Descàrregar <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                             </button>
                         </a>
                     </p>
@@ -70,7 +70,7 @@
                         Títol de document<br>
                         <a href="#" target="_blank">
                             <button class="btn more-info-faqs">
-                                Descàrrega <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
+                                Descàrregar <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                             </button>
                         </a>
                     </p>
@@ -87,7 +87,7 @@
                         Títol de document<br>
                         <a href="#" target="_blank">
                             <button class="btn more-info-faqs">
-                                Descàrrega <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
+                                Descàrregar <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                             </button>
                         </a>
                     </p>
@@ -104,7 +104,7 @@
                         Títol de document<br>
                         <a href="#" target="_blank">
                             <button class="btn more-info-faqs">
-                                Descàrrega <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
+                                Descàrregar <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                             </button>
                         </a>
                     </p>
@@ -121,7 +121,7 @@
                         Títol de document<br>
                         <a href="#" target="_blank">
                             <button class="btn more-info-faqs">
-                                Descàrrega <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
+                                Descàrregar <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                             </button>
                         </a>
                     </p>
@@ -138,7 +138,7 @@
                         Títol de document<br>
                         <a href="#" target="_blank">
                             <button class="btn more-info-faqs">
-                                Descàrrega <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
+                                Descàrregar <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                             </button>
                         </a>
                     </p>
@@ -155,7 +155,7 @@
                         Títol de document<br>
                         <a href="#" target="_blank">
                             <button class="btn more-info-faqs">
-                                Descàrrega <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
+                                Descàrregar <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                             </button>
                         </a>
                     </p>
@@ -172,7 +172,7 @@
                         Títol de document<br>
                         <a href="#" target="_blank">
                             <button class="btn more-info-faqs">
-                                Descàrrega <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
+                                Descàrregar <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                             </button>
                         </a>
                     </p>
@@ -189,7 +189,7 @@
                         Títol de document<br>
                         <a href="#" target="_blank">
                             <button class="btn more-info-faqs">
-                                Descàrrega <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
+                                Descàrregar <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                             </button>
                         </a>
                     </p>
@@ -206,7 +206,7 @@
                         Títol de document<br>
                         <a href="#" target="_blank">
                             <button class="btn more-info-faqs">
-                                Descàrrega <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
+                                Descàrregar <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                             </button>
                         </a>
                     </p>

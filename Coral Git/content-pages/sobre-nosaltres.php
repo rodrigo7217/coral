@@ -8,7 +8,7 @@
                 Som una companyia ubicada a La Granada del Penedès, a la<br> província de Barcelona, al costat de l’AP-7. 
             </p>
             <a href="#" target="_blank">
-                <button class="btn more-info-nosaltres">
+                <button class="btn more-info-nosaltres btn-qs">
                     Dossier corporativo <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                 </button>
             </a>

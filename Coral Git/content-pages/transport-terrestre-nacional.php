@@ -36,7 +36,7 @@
 </div>
 <div id="info-general-transport-tn">
     <div class="container">
-        <div class="col-md-6 col-sm-6 col-12">
+        <div class="col-md-7 col-sm-7 col-12">
             <p>
                 Per dur a terme de forma eficient el transport nacional per carretera a tot Espanya, Coral forma part de la xarxa IBERTEAM amb 52 agències que ens permet una distribució capil·lar.
             </p>
@@ -71,7 +71,7 @@
                 </button>
             </a>
         </div>
-        <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="col-md-5 col-sm-5 col-xs-12">
             <img class="pull-right" src="./assets/img/transport/map-tranpo-inf-gen.png"/>
             <img class="log-tranpo-inf-gen" src="./assets/img/transport/log-tranpo-inf-gen.png"/>
         </div>
@@ -228,10 +228,6 @@
                             <td><span>03</span> Alicante</td>
                             <td><span></span></td>
                         </tr>
-                        <tr>
-                            <td><span></span></td>
-                            <td><span></span></td>
-                        </tr>
                     </tbody>
                 </table>
 
@@ -294,10 +290,6 @@
                             <td><span>16</span> Cuenca</td>
                             <td><span>49</span> Zamora</td>
                         </tr>
-                        <tr>
-                            <td><span></span></td>
-                            <td><span></span></td>
-                        </tr>
                     </tbody>
                 </table>
 
@@ -314,7 +306,39 @@
                         <tr>
                             <td><span>13</span> Ciudad Real</td>
                         </tr>
-
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
                     </tbody>
                 </table>
 
@@ -336,7 +360,7 @@
             <br>
         </div> 
         <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="table-grid-ttn blue">
+            <div class="table-grid-ttn bluef">
                 <table class="table tablev1">
                     <thead>
                         <tr>
@@ -474,6 +498,39 @@
                         <tr>
                             <td><span>13</span> Ciudad Real</td>
                         </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
                     </tbody>
                 </table>
                 <div class="clearfix"></div>
@@ -517,7 +574,39 @@
                         <tr>
                             <td><span>13</span> Ciudad Real</td>
                         </tr>
-
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
                     </tbody>
                 </table>
                 <table class="table tablev1">

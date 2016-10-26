@@ -74,15 +74,15 @@
                             <td></td>
                             <td></td>
                         </tr>
-                        <tr class="slim-celda">
+                        <tr class="slim-celda slim-celda-title">
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td>Dll</td>
-                            <td>Dm</td>
-                            <td>Dc</td>
-                            <td>Dj</td>
-                            <td>Dv</td>
+                            <td class="slim-celda-title-light">Dll</td>
+                            <td class="slim-celda-title-light">Dm</td>
+                            <td class="slim-celda-title-light">Dc</td>
+                            <td class="slim-celda-title-light">Dj</td>
+                            <td class="slim-celda-title-light">Dv</td>
                             <td></td>
                             <td align="center">Transit time</td>
                             <td></td>
@@ -172,26 +172,6 @@
                             <td class="bold-celd">X</td>
                             <td class="bold-celd">X</td>
                             <td class="bold-celd"></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
                             <td></td>
                         </tr>
                     </tbody>

@@ -44,15 +44,15 @@
     </div>
 </div>
 
-<div class="content-descarga-tti border-top-tm">
+<div class="content-descarga-tta border-top-tm">
     <div class="container">
         <div class="col-md-12 col-sm-12 col-xs-12">
             <p>
                 <span class="style-text-descarga-tti">Descàrregues</span>
             </p>
             <a href="#" target="_blank">
-                <button class="btn more-info-tti">
-                    DCD IATA&nbsp;&nbsp;&nbsp;&nbsp;<img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
+                <button class="btn more-info-tta">
+                    DCD IATA <img class="icon-download-faqs-ta" src="./assets/img/contact/download-faqs.png"/>
                 </button>
             </a> 
             <div class="clearfix"></div>
