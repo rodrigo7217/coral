@@ -5,7 +5,7 @@
                 <img src="./assets/img/home/logo-menu.png"/>
             </a>
         </div>
-        <div class="col-md-10 col-sm-10 col-xs-12">
+        <div class="col-md-10 col-sm-10 col-xs-12 no-movil">
             <ul id="menu-top">
 
 

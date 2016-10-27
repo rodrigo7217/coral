@@ -4,11 +4,11 @@
             <li>
                 <a href="#">Política de privacitat</a>
             </li>
-            <li>|</li>
+            <li class="no-movil">|</li>
             <li>
                 <a href="#">Avís Legal</a>
             </li>
-            <li>|</li>
+            <li class="no-movil">|</li>
             <li>
                 <a href="#">Mapa Web</a>
             </li>

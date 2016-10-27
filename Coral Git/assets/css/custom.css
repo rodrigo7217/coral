@@ -8,10 +8,7 @@ and open the template in the editor.
     Author     : Rodrigo Serrano | Etic
 */
 
-.container
-{
-    width: 1194px!important;
-}
+
 
 a
 {
@@ -31,6 +28,12 @@ li
 {
     font-size: 16px;
 }
+
+.no-desktop
+{
+    display: none;
+}
+
 header
 {
     padding-top: 10px;
@@ -420,6 +423,11 @@ header.sticky {
 {
     border-radius: 0px;
     border: 2px solid #F4F7F9; 
+    height: 48px;
+}
+.radio-inline input
+{
+    height: auto!important;
 }
 #solicitar-presupuesto-form h1
 {
@@ -524,6 +532,13 @@ header.sticky {
     color: #436479;
     font-size: 14px;
 }
+.link-news-bottom
+{
+    font-size: 18px;
+    font-weight: 400;
+    color: #436579;
+}
+
 .img-news img
 {
     width: 100%;
@@ -696,6 +711,10 @@ header.sticky {
     padding-right: 10px;
     font-size: 18px;
     color: #fff;
+}
+.title-movil-transport-home
+{
+    display: none;
 }
 
 /*contacto*/
@@ -1657,3 +1676,285 @@ header.sticky {
     min-height:104px;
 }
 /*productes*/
+
+
+/*media querys*/
+@media (max-width: 1194px) {
+    .item-transport 
+    {
+        border: 1px solid #D6D6D6;
+        padding: 30px 20px 13px 30px;
+        margin-bottom: 20px;
+        min-height: 270px;
+        position: relative;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    /*home*/
+    .no-movil
+    {
+        display: none!important;
+    }
+    .item-transport {
+        border: 1px solid #D6D6D6;
+        padding: 30px 20px 13px 30px;
+        margin-bottom: 20px;
+        min-height: 281px;
+        position: relative;
+    }
+    .height-small {
+        min-height: 228px;
+    }
+    .title-info-transport h1 {
+        font-size: 32px;
+        color: #436379;
+    }
+    .space-test br
+    {
+        display: none;
+    }
+    /*home*/
+}
+@media (max-width: 986px) {
+
+    /*home*/
+    #solicitud-presupuesto {
+        background-image: none;
+        background-size: cover;
+        min-height: 700px;
+        width: 100%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    #solicitar-presupuesto-form
+    {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    /*home*/
+}
+@media (max-width: 900px) {
+
+    /*home*/
+    .item-transport {
+        border: 1px solid #D6D6D6;
+        padding: 30px 20px 13px 30px;
+        margin-bottom: 20px;
+        min-height: 340px;
+        position: relative;
+    }
+    .content-info-member {
+        width: 100%;
+        position: relative;
+        bottom: -200px;
+    }
+    /*home*/
+}
+
+@media (max-width: 768px) {
+
+    /*home*/
+    .info-one {
+        background-color: rgba(255, 255, 255, 0.0);
+    }
+    .form-option-home
+    {
+        background-color: rgba(255, 255, 255, 0.1);
+        padding-top: 10px;
+        padding-bottom: 20px;;
+    }
+    .item-transport {
+        border: 1px solid #D6D6D6;
+        padding: 30px 20px 13px 30px;
+        margin-bottom: 20px;
+        min-height: 340px;
+        position: relative;
+    }
+    .content-info-member {
+        width: 100%;
+        position: relative;
+        bottom: -200px;
+    }
+    .title-info-transport
+    {
+        display: none;
+    }
+    .item-logo-logistic 
+    {
+        text-align: center;
+        min-height: 170px;
+    }
+    .item-logo-logistic img
+    {
+        width: 130px;
+    }
+    #options-slide-home-bottom {
+        background-image: url(../img/home/news-fondo.png);
+        background-size: cover;
+        background-position: left center;
+        background-color: #004b85;
+        min-height: 156px;
+        width: 100%;
+    }
+    .select-home-style {
+        border: 1px solid #ccc;
+        background: URL(../img/home/icn-arrow-down.png);
+        background-repeat: no-repeat;
+        background-position: center right;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        background-position-x: right;
+        padding-right: 48px;
+    }
+    .info-two {
+        border-left: 0px solid #336f9d;
+        border-top: 1px solid #336f9d;
+        margin-top: 20px;
+        min-height: 126px;
+    }
+
+
+    #content-transport {
+
+        background-image: none;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .item-transport p 
+    {
+        color: #2C363D;
+        font-size: 13px;
+        margin-top: 0px;
+    }
+    .item-transport 
+    {
+        border: 1px solid #D6D6D6;
+        padding: 30px 20px 13px 88px;
+        margin-bottom: 20px;
+        min-height: 232px;
+        position: relative;
+    }
+    .icon-transport 
+    {
+        float: right;
+        margin-right: -14px;
+        margin-top: -20px;
+        position: absolute;
+        left: 18px;
+        top: 50px;
+    }
+    .title-movil-transport-home
+    {
+        display: block;
+        padding-left: 40px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .title-movil-transport-home h1
+    {
+        font-size: 28px;
+        color: #436479;
+    }
+
+    #logistic {
+        background-image: url(../img/home/fondo-logist.png);
+        background-size: cover;
+        background-color: #27477B;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .ad-disclaimer
+    {
+        display: none;
+    }
+    .info-disclaimer {
+        position: relative;
+        min-height: 60px;
+    }
+    .info-disclaimer p
+    {
+        display: none;
+    }
+
+    #solicitud-presupuesto 
+    {
+        background-image: none;
+        background-size: cover;
+        min-height: 700px;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+
+    .line-divider-testimonials
+    {
+        height: 1px;
+        width: 100%;
+        background-color: #000;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .no-desktop
+    {
+        display: block;
+    }
+    .more-info-news 
+    {
+        background-color: #85afd4;
+        margin-top: 36px;
+        position: relative;
+    }
+    .item-news 
+    {
+        margin-top: 30px;
+    }
+    #form-contact-footer .form-control {
+        background-color: #436479;
+    }
+    #contact
+    {
+        position: relative;
+    }
+    .item-dir-contact 
+    {
+        margin-top: 50px;
+        padding-left: 56px;
+    }
+    .content-link-redes {
+        width: 200px;
+        float: left;
+    }
+    .logo-footer-movil
+    {
+        float: left;
+        margin-left: 20px;
+    }
+    .space-logos-movil 
+    {
+        padding-left: 70px;
+    }
+    .icon-linkedin 
+    {
+        width: 60px;
+        float: left;
+    }
+    #menu-inferior 
+    {
+        background-color: #004B85;
+        width: 100%;
+        min-height: 150px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #menu-inferior ul li {
+        width: 100%; 
+        height: 32px;
+    }
+    /*home*/
+}

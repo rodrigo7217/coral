@@ -2,7 +2,7 @@
     <div class="container">
         <div class="col-md-12 col-xs-12 col-sm-12">
             <h1>
-                Emmagatzematge i Picking
+                Infraestructura
             </h1>
         </div>
     </div>
@@ -22,23 +22,17 @@
         </div>
         <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="image-infraestructura">
-                <img src="./assets/img/logistic/img-galery-1.jpg"/>
+                <img src="./assets/img/nosaltres/image-infrastruture.jpg"/>
+            </div>
+            <div class="item-infraestructura">
+                <h2>
+                    Iberteam
+                </h2>
+                <p>
+                    Tenim un acord comercial amb dues empreses de característiques similars a la nostra, situades a les zones més industrialitzades de la Península (Irun i València). Aquesta estreta col·laboració ens permet ser més influents en les nostres àrees i assegurar una millor cobertura a escala nacional i internacional. El grup d’empreses Iberteam compte en total amb unes instal3lacions de 75.000 m2 i amb més de 185 vehicles de flota fixa.    
+                </p>
             </div>
         </div>
 
-    </div>
-</div>
-<div id="content-dis" class="blue">
-    <div class="container">
-        <div class="col-sm-12 col-md-12 col-xs-12">
-            <h1>Distribució</h1>
-            <ul class="bullets-spcials">
-                <li>Nacional (Grans superfícies incloses)</li>
-                <li>Canàries</li>
-                <li>Balears</li>
-                <li>Grans superfícies</li>
-                <li>Andorra, Ceuta i Melilla</li>
-            </ul>
-        </div>
     </div>
 </div>

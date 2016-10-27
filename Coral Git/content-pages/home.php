@@ -14,7 +14,7 @@
             <div class="info-one">
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <h1>
-                        Transport
+                        Transport time
                     </h1>
                     <p>
                         Terrestre nacional<br>
@@ -23,7 +23,7 @@
                         aeri
                     </p>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="col-md-6 col-sm-6 col-xs-12 form-option-home">
                     <h1>
                         On vam arribar
                     </h1>
@@ -63,6 +63,12 @@
 </section>
 <section id="content-transport">
     <div class="container ">
+        <div class="title-movil-transport-home col-md-12 col-sm-12 col-xs-12">
+            <h1>
+                Transport de Mercaderies<br>
+                Logística i Emmagatzematge
+            </h1>
+        </div>
         <div class="col-md-8 col-sm-8 col-xs-12">
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="item-transport">
@@ -186,17 +192,30 @@
                 <div class="clearfix"></div>
             </div>
         </div>
-        <div class="col-md-12 col-xs-12 col-sm-12 text-center">
-            <img id="logos-logic" src="./assets/img/home/logos-logistic.png"/>
+    </div>
+    <div id="content-logos-logic">
+        <div class="container">
+            <div class="col-md-3 col-sm-3 col-xs-6 item-logo-logistic">
+                <img class="logos-logic" src="./assets/img/home/logo-1.png"/>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6 text-center item-logo-logistic">
+                <img class="logos-logic" src="./assets/img/home/logo-2.png"/>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6 text-center item-logo-logistic">
+                <img class="logos-logic" src="./assets/img/home/logo-3.png"/>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6 text-right item-logo-logistic">
+                <img class="logos-logic" src="./assets/img/home/logo-4.png"/>
+            </div>
         </div>
     </div>
 </section>
 <section id="solicitud-presupuesto">
     <div class="container">
-        <div class="col-md-8 col-xs-8 col-sm-12">
+        <div class="col-md-8 col-xs-12 col-sm-12">
 
         </div>
-        <div class="col-md-4 col-xs-4 col-sm-12">
+        <div class="col-md-4 col-xs-12 col-sm-12">
             <form id="solicitar-presupuesto-form">
                 <h1 class="title-form">
                     Sol·licitud de pressupost
@@ -262,7 +281,7 @@
                 </p>
             </div>
         </div>
-        <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="col-md-6 col-sm-6 col-xs-12 no-movil">
             <div class="col-md-3 col-sm-3 col-xs-12 padd-test-cero">
                 <img class="avatar-testimonial" src="./assets/img/home/testimonial-avatar2.png"/>
             </div>
@@ -306,7 +325,7 @@
                 esdeveniments
             </h1>
             <a href="nosaltres-noticias.php">
-                <button class="more-info-news blue-btn">Veure totes les Notícies</button>
+                <button class="more-info-news blue-btn no-movil">Veure totes les Notícies</button>
             </a>
         </div>
         <div class="col-md-4 col-sm-4 col-xs-12">
@@ -368,6 +387,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 no-desktop text-center">
+            <a href="nosaltres-noticias.php">
+                <button class="more-info-news blue-btn">Veure totes les Notícies</button>
+            </a>
         </div>
     </div>
 </section>
