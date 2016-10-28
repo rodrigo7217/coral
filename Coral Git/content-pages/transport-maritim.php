@@ -45,7 +45,9 @@
             </ul>
         </div>
         <div class="col-md-6 col-sm-6 col-xs-12">
-
+            <div class="no-desktop text-center">
+                <img class="image-movil-tm" src="./assets/img/transport/back-tm-movil.jpg"/>
+            </div>
         </div>        
     </div>
 </div>
@@ -72,7 +74,8 @@
 </div>
 
 <div id="footer-tm">
-    <img src="./assets/img/transport/back-footer-tm.jpg"/>
+    <img class="no-movil-768" src="./assets/img/transport/back-footer-tm.jpg"/>
+    <img class="no-desktop" src="./assets/img/transport/back-footer-tm-movil.jpg"/>
 </div>
 
 

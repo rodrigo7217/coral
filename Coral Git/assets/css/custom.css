@@ -8,7 +8,11 @@ and open the template in the editor.
     Author     : Rodrigo Serrano | Etic
 */
 
-
+@font-face 
+{
+    font-family: 'Apex';
+    src:  url('../fonts/ApexNew-Book_0.woff') format('woff');
+}
 
 a
 {
@@ -18,11 +22,12 @@ p
 {
     font-size: 16px;
     font-family: Tahoma,Verdana,Segoe,sans-serif!important;
+
     line-height: 24px;
 }
 h1, h2, h3, h4, h5, h6
 {
-    font-family: 'PT Sans', sans-serif!important;
+    font-family: 'Apex', sans-serif!important;
 }
 li
 {
@@ -30,6 +35,10 @@ li
 }
 
 .no-desktop
+{
+    display: none;
+}
+.no-desktop-special-home
 {
     display: none;
 }
@@ -76,6 +85,36 @@ header.sticky {
     display: inline-block;
     margin-top: 3px;
 }
+
+#menu-movil
+{
+    display: none;
+}
+#btn-menu-movil
+{
+    display: none;
+}
+#menu-top-movil
+{
+    list-style: none;
+    width: 100%;
+    margin-left: -40px;
+}
+#menu-top-movil li
+{
+    border-top: 1px solid #005590;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.sub-sn
+{
+    list-style: none;
+}
+.sub-sn li
+{
+    border-top: 0px solid #005590!important;
+}
+
 .space-text-menu
 {
     padding-left: 78px;
@@ -160,6 +199,13 @@ header.sticky {
 #options-slide-home-bottom
 {
     background-image: url(../img/home/options-fondo.png);
+    background-size: cover;
+    min-height: 156px;
+    width: 100%;
+}
+#slider-home-movil
+{
+    background-image: url(../img/home/slider-home-movil.png);
     background-size: cover;
     min-height: 156px;
     width: 100%;
@@ -440,7 +486,7 @@ header.sticky {
 #solicitar-presupuesto-form label
 {
     color: #3F4755;
-    font-family: 'PT Sans', sans-serif!important;
+    font-family: 'Apex', sans-serif!important;
 }
 .title-form
 {
@@ -716,6 +762,20 @@ header.sticky {
 {
     display: none;
 }
+#distribucion-list
+{
+    background-image: url(../img/home/news-fondo.png);
+    background-size: 100% auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #EBEFF2;
+    width: 100%;
+}
+#distribucion-list h1
+{
+    font-size: 34px;
+    color: #416479;
+}
 
 /*contacto*/
 #head-contact
@@ -885,7 +945,7 @@ header.sticky {
 {
     font-size: 28px;
     color: #80ABC8;
-    font-family: 'PT Sans', sans-serif!important;
+    font-family: 'Apex', sans-serif!important;
 }
 .more-info-nosaltres
 {
@@ -1052,6 +1112,7 @@ header.sticky {
 #head-sobre-nosaltres-c p {
     font-size: 28px;
     color: #80ABC8;
+    font-family: 'Apex', sans-serif!important;
 }
 #culture-content
 {
@@ -1677,6 +1738,13 @@ header.sticky {
 }
 /*productes*/
 
+/*menu movil*/
+#clik-menu-movil
+{
+    display: none;
+}
+/*menu movil*/
+
 
 /*media querys*/
 @media (max-width: 1194px) {
@@ -1687,6 +1755,30 @@ header.sticky {
         margin-bottom: 20px;
         min-height: 270px;
         position: relative;
+    }
+
+    header {
+        text-align: center;
+    }
+    #clik-menu-movil
+    {
+        display: block;
+    }
+    #btn-menu-movil
+    {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 18px;
+        cursor: pointer;
+    }
+    #menu-top
+    {
+        display: none;
+    }
+    #main-menu-1194
+    {
+        width: 100%;
     }
 }
 
@@ -1956,5 +2048,374 @@ header.sticky {
         width: 100%; 
         height: 32px;
     }
+    .no-movil-f
+    {
+        display: none!important;
+    }
+    .no-movil-768
+    {
+        display: none;   
+    }
+    #contatent-text-movil
+    {
+        background-color: #EAEEF1;
+        width: 100%; 
+        position: relative;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .qs-sub-title
+    {
+        font-size: 24px!important;
+        color: #fff!important;
+    }
+    #head-sobre-nosaltres {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
     /*home*/
+
+    /*nosaltres*/
+    .item-nosaltres-text {
+        min-height: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .btn-qs
+    {
+        position: relative!important;
+        margin-top: 20px;
+        margin-bottom: 20px;               
+    }
+
+
+
+    #head-sobre-nosaltres-inf {
+        padding-top: 20px;
+        padding-bottom: 3px;
+    }
+    #head-sobre-nosaltres-inf h1 {
+        font-size: 32px;
+    }
+    #head-infraestructura {
+        background-image: url(../img/nosaltres/banner-infrastructure.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        min-height: 350px;
+        background-color: #EAEEF1;
+    }
+    #head-infraestructura h1 {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        font-size: 24px;
+        text-align: left;
+    }
+    #infraestructura-info-content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .item-team {
+        min-height: 140px;
+    }
+    .image-team img 
+    {
+        width: 113px;
+        float: left;
+        margin-right: 20px;
+    }
+    .info-team {
+        padding-top: 0px;
+    }
+
+    #head-sobre-nosaltres-c h1 {
+        font-size: 36px;
+    }
+    #head-sobre-nosaltres-c p {
+        font-size: 23px;
+    }
+    #head-sobre-nosaltres-c 
+    {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #content-new-view 
+    {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #last-news 
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .text-new-view 
+    {
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    .item-galery-transport 
+    {
+        width: 100%;
+        float: left;
+
+    }
+    #info-tranport 
+    {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .info-left-tranport p
+    {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    #galery-transport 
+    {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width: 100%;
+    }
+
+    #head-sobre-nosaltres-c h1 
+    {
+        font-size: 36px;
+    }
+    .option-menu-transport 
+    {
+        width: 136px;
+        background-color: #436479;
+        height: 46px;
+        float: left;
+        margin-right: 1px;
+        padding: 12px 5px 10px 5px;
+        text-align: center;
+    }
+    .custom-head-transport-tc h1 {
+        margin-bottom: 0px !important;
+    }
+
+    #content-menu-transport 
+    {
+        width: 100%;
+        height: 46px;
+        position: absolute;
+        bottom: -76px;
+        z-index: 1;
+    }
+    #btn-more-ttn-sub
+    {
+        position: absolute;
+        right: 0px;
+        cursor: pointer;
+    }
+    .menu-sub-tranport
+    {
+        display: none;
+        position: absolute;
+        top: 50px;
+    }
+    .text-center-movil
+    {
+        text-align: center;
+    }
+    .img-movil-ttn
+    {
+        float: none!important;
+        width: 261px;
+    }
+    .log-tranpo-inf-gen 
+    {
+        float: none!important;
+        margin-top: 20px;
+    }
+    .map-image-int-ttn 
+    {
+        width: 261px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .map-image-int-ttc
+    {
+        margin-top: 30px;
+        width: 299px;
+    }
+    .tranport-bellears h1 
+    {
+        font-size: 24px;
+    }
+    .content-text-left-ttn 
+    {
+        max-width: 600px;
+        float: right;
+        padding-top: 20px;
+    }
+    .tablev1 {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    /*noslatres*/
+
+
+
+    /*contacto*/
+    #content-contact
+    {
+        padding-top: 7px;    
+    }
+
+    #content-contact .padd-right-cero 
+    {
+        padding-right: 0px!important;
+        padding-bottom: 0px!important;
+        padding-left: 0px!important;
+        padding-top: 0px!important;
+        margin-top: -20px;
+    }
+    .item-map 
+    {
+        margin-top: -6px;
+    }
+    #content-more-info 
+    {
+        width: 100%;
+        background-color: #416479;
+        height: 200px;
+        margin-top: -4px;
+        padding: 30px 30px 30px 30px;
+    }
+    #content-more-info p 
+    {
+        font-size: 24px;
+    }
+
+    .more-info-contact 
+    {      
+        width: 100%;
+        height: 46px;   
+        margin-top: 20px;
+    }
+
+    #content-faqs .more-info-faqs 
+    {
+        width: 100%;
+        text-align: center;
+    }
+    #content-faqs .text-aling-left-m
+    {
+        text-align: left !important;
+    }
+
+
+    /*contacto*/
+
+    /*transport*/
+    #transport-content-tti 
+    {
+        background-image: none;
+    }
+    .more-info-tti 
+    {
+        width: 100%;
+        background-color: #436479;
+        color: #fff;
+        font-size: 14px;
+        height: 46px;
+        border-radius: 0px;
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 20px;
+        margin-left: 0px;
+        position: relative;
+    }
+    .content-descarga-tti 
+    {
+        margin-top: 40px;
+    }
+    .height-ttip-movil
+    {
+        min-height: 120px;
+    }
+    #transport-pais-info .map-image-int-ttn 
+    {
+        margin-top: 20px;
+        width: 134px;
+    }
+    #transport-content-tm {
+        background-image: none;
+        padding-bottom: 30px;
+    }
+    .image-movil-tm
+    {
+        margin-top: 30px;
+    }
+    .tmp-img
+    {
+        width: 190px!important;
+    }
+    .back-white-light-int 
+    {
+        padding-top: 40px !important;
+        padding-bottom: 0px !important;
+    }
+
+    #transport-content-ta {
+        background-image: none;
+        padding-bottom: 20px;
+    }
+
+    .movil-menu-ta .option-menu-transport 
+    {
+        width: 155px;
+    }
+
+    .content-descarga-tta p {
+        width: 100%;
+        margin-top: 23px;
+        float: left;
+    }
+    .more-info-tta 
+    {
+        width: 100%;
+        margin-left: 0px;
+        position: relative;
+    }
+    /*transport*/
+
+    /*products*/
+    .space-gal-mov-pq
+    {
+        margin-top: 120px;
+    }
+    /*products*/
+
+
+    /*logistic*/
+    #distribucion-list
+    {
+        background-image: none;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    #distribucion-list h1 
+    {
+        font-size: 24px;
+    }
+    /*logistic*/
+}
+
+@media (max-width: 468px) {
+    .no-movil-468
+    {
+        display: none;
+    }
+    .no-desktop-special-home
+    {
+        display: inline-block;
+    }
 }

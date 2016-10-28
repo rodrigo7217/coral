@@ -21,7 +21,7 @@
     <div class="container">
         <div>
             <div class="col-md-4 col-sm-4 col-xs-12 text-center">
-                <img class="map-image-int-ttn" src="./assets/img/transport/map-tap.png"/>
+                <img class="map-image-int-ttn no-movil-768" src="./assets/img/transport/map-tap.png"/>
             </div>
             <div class="col-md-8 col-sm-8 col-xs-12">
                 <div class="content-text-left-ttn">
@@ -66,6 +66,9 @@
                             Transport aeri a Santiago (San Antonio), amb enviaments CFR, CIF, DDU, DDP
                         </li>
                     </ul>
+                </div>
+                <div class="map-movil no-desktop text-center">
+                    <img class="map-image-int-ttn tmp-img" src="./assets/img/transport/map-tap.png" width="168px"/>
                 </div>
             </div>
             <div class="clearfix"></div>

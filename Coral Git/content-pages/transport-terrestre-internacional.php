@@ -20,6 +20,19 @@
                         Polònia
                     </a>
                 </div>
+                <div class="menu-sub-tranport">
+                    <div class="option-menu-transport">
+                        <a href="transport-terrestre-internacional-pais.php">
+                            Polònia
+                        </a>
+                    </div>
+                    <div class="option-menu-transport">
+                        <a href="transport-terrestre-internacional-pais.php">
+                            Polònia
+                        </a>
+                    </div>
+                </div>
+                <img id="btn-more-ttn-sub" class="no-desktop" src="./assets/img/transport/btn-more-n.png"/>
             </div>
         </div>
     </div>
@@ -51,6 +64,9 @@
                 </li>
 
             </ul>
+            <div class="text-center no-desktop">
+                <img src="./assets/img/transport/back-tti-movil.jpg"/>
+            </div>
         </div>
         <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="content-descarga-tti">
@@ -83,5 +99,6 @@
     </div>
 </div>
 <div id="banner-bottom-tti">
-    <img src="./assets/img/transport/bottom-back-tti.jpg" width="100%"/>
+    <img class="no-movil-768" src="./assets/img/transport/bottom-back-tti.jpg" width="100%"/>
+    <img class="no-desktop" src="./assets/img/transport/bottom-back-tti-movil.jpg" width="100%"/>
 </div>

@@ -11,7 +11,8 @@
     </div>
 </div>
 <div id="banner-transport">
-    <img src="./assets/img/productes/banner-log.jpg"/>
+    <img class="no-movil-768" src="./assets/img/productes/banner-log.jpg"/>
+    <img class="no-desktop" src="./assets/img/productes/banner-log-movil.jpg"/>
 </div>
 <div id="info-tranport">
     <div class="container">
@@ -69,7 +70,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="col-md-12 col-sm-12 col-xs-12 space-gal-mov-pq">
             <div class="item-galery-transport">
                 <div class="img-item-transport">
                     <img src="./assets/img/productes/img-galery-4.jpg"/>  

@@ -75,7 +75,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="col-md-12 col-sm-12 col-xs-12 space-gal-mov-pq">
             <div class="item-galery-transport">
                 <div class="img-item-transport">
                     <img src="./assets/img/logistic/img-galery-4.jpg"/>  

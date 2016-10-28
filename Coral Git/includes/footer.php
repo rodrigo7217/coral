@@ -51,7 +51,7 @@
                 </div>
 
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12 no-movil">
+            <div class="col-md-6 col-sm-6 col-xs-12 no-movil-f">
                 <form id="form-contact-footer">
                     <div class="form-group">
                         <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom" required>
@@ -73,7 +73,7 @@
         </div>
         <div class="space-logos-movil">
             <div class="icons-footer col-md-6 col-sm-6 col-xs-12">
-                <img class="pull-left no-movil" src="./assets/img/home/logo-menu.png"/>
+                <img class="pull-left no-movil-f" src="./assets/img/home/logo-menu.png"/>
                 <div class="content-link-redes no-desktop">
                     <div class="icon-linkedin">
                         <a href="#" target="_blank">
@@ -89,7 +89,7 @@
                 </div>
             </div>
             <div class="icons-footer col-md-6 col-sm-6 col-xs-12 text-right">
-                <div class="content-link-redes no-movil">
+                <div class="content-link-redes no-movil-f">
                     <div class="text-footer-linkedin">
                         <p>
                             Visita'ns en el nostre<br>

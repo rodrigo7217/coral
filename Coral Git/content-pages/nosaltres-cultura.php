@@ -8,7 +8,7 @@
                 La seva confiança és el nostre objectiu. 
             </p>
             <a href="#" target="_blank">
-                <button class="btn more-info-nosaltres btn-qs">
+                <button class="btn more-info-nosaltres btn-qs no-movil-768">
                     Dossier corporativo <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                 </button>
             </a>

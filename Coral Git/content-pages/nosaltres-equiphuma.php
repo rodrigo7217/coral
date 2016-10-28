@@ -5,7 +5,7 @@
                 Equip humà
             </h1>
             <a href="#" target="_blank">
-                <button class="btn more-info-nosaltres-inf">
+                <button class="btn more-info-nosaltres-inf no-movil-768">
                     Dossier corporativo <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                 </button>
             </a>
@@ -238,6 +238,13 @@
                     </p>
                 </div>
             </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 no-desktop">
+            <a href="#" target="_blank">
+                <button class="btn more-info-nosaltres btn-qs">
+                    Dossier corporativo <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
+                </button>
+            </a>
         </div>
     </div>
 </div>

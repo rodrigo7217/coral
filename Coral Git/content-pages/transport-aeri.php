@@ -4,7 +4,7 @@
             <h1>
                 Transport Aeri
             </h1>
-            <div id="content-menu-transport">
+            <div id="content-menu-transport" class="movil-menu-ta">
                 <div class="option-menu-transport">
                     <a href="transport-aeri-pais.php">
                         Sudamèrica Pacífic
@@ -39,7 +39,9 @@
             </ul>
         </div>
         <div class="col-md-6 col-sm-6 col-xs-12">
-
+            <div class="no-desktop text-center">
+                <img src="./assets/img/transport/back-ta-movil.jpg" width="100%"/>
+            </div>
         </div>        
     </div>
 </div>
@@ -61,7 +63,8 @@
 </div>
 
 <div id="footer-tm">
-    <img src="./assets/img/transport/back-footer-ta.jpg"/>
+    <img class="no-movil-768" src="./assets/img/transport/back-footer-ta.jpg"/>
+    <img class="no-desktop" src="./assets/img/transport/back-footer-ta-movil.jpg"/>
 </div>
 
 

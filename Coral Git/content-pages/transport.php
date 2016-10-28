@@ -10,8 +10,9 @@
         </div>
     </div>
 </div>
-<div id="banner-transport">
-    <img src="./assets/img/transport/banner-transport.jpg"/>
+<div id="banner-transport" >
+    <img class="no-movil-768" src="./assets/img/transport/banner-transport.jpg"/>
+    <img class="no-desktop" src="./assets/img/transport/banner-transport-movil.jpg"/>
 </div>
 <div id="info-tranport">
     <div class="container">

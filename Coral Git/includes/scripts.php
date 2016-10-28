@@ -30,12 +30,11 @@
             singleItem: true,
             responsiveClass: true,
             responsive: {
-               
                 600: {
                     items: 3,
                     nav: false
                 }
-                
+
             }
 
             // "singleItem:true" is a shortcut for:
@@ -62,6 +61,17 @@
             $("#nosaltres").removeClass("active-sub");
             $(".sub-menu-head").hide();
             $("#transport-sub").slideToggle("slow", function () {
+                // Animation complete.
+            });
+        });
+
+        $("#btn-more-ttn-sub").click(function () {
+            $(".menu-sub-tranport").slideToggle("slow", function () {
+                // Animation complete.
+            });
+        });
+        $("#btn-menu-movil").click(function () {
+            $("#menu-movil").slideToggle("slow", function () {
                 // Animation complete.
             });
         });

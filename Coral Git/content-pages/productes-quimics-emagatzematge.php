@@ -2,7 +2,7 @@
     <div class="container">
         <div class="col-md-12 col-xs-12 col-sm-12">
             <h1>
-                Emmagatzematge APQ - ADR
+                Emmagatzematge<br class="no-desktop"> APQ - ADR
             </h1>
         </div>
     </div>
@@ -19,9 +19,12 @@
                 Deixi que Coral Transports s’encarregui de l’emmagatzematge de les seves mercaderies ADR.
             </p>
         </div>
-        <div class="col-md-6 col-sm-6 col-xs-12">
-            <img src="./assets/img/productes/image-product.jpg"/>
+        <div class="col-md-6 col-sm-6 col-xs-12 no-movil-768">
+            <img src="./assets/img/productes/image-product.jpg" width="100%"/>
         </div>
     </div>
+</div>
+<div id="banner-logistic-eep" class="no-desktop">
+    <img src="./assets/img/productes/image-product.jpg" width="100%"/>
 </div>
 

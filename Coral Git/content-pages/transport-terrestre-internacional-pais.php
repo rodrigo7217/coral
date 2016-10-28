@@ -1,11 +1,10 @@
-<div id="head-contact">
+<div id="head-contact" class="height-ttip-movil">
     <div class="container">
         <div class="col-md-12 col-xs-12 col-sm-12">
             <h1>
                 Transport Terrestre Alemanya
             </h1>
         </div>
-
     </div>
 </div>
 <div id="return-all">
@@ -21,7 +20,7 @@
     <div class="container">
         <div class="content-text-ttip">
             <div class="col-md-4 col-sm-4 col-xs-12 text-center">
-                <img class="map-image-int-ttn" src="./assets/img/transport/map-ttip.png"/>
+                <img class="map-image-int-ttn no-movil-768" src="./assets/img/transport/map-ttip.png"/>
             </div>
             <div class="col-md-8 col-sm-8 col-xs-12">
                 <div class="content-text-left-ttn">
@@ -37,15 +36,15 @@
                         La posición estratégica de nuestras instalaciones, a un paso del puerto de Barcelona, favorecen el tránsito de mercancías en unos plazos muy competitivos, y garantizan la máxima eficiencia en el transporte de mercancías.
                     </p>
                 </div>
+                <div class="map-movil no-desktop text-center">
+                    <img class="map-image-int-ttn " src="./assets/img/transport/map-ttip.png"/>
+                </div>
             </div>
             <div class="clearfix"></div>
         </div>
         <div class="col-md-12 col-sm-12 col-xs-12">
 
-            <div class="table-grid-ttn blue">
-
-
-                <!-- HTML Code: Place this code in the document's body (between the 'body' tags) where the table should appear -->
+            <div class="table-grid-ttn blue no-movil-768">
                 <table class="table tablev1">
                     <thead>
                         <tr >
@@ -176,11 +175,9 @@
                         </tr>
                     </tbody>
                 </table>
-                <!-- Codes by Quackit.com -->
-
-
-                <div class="clearfix"></div>
             </div>
+
+           
 
         </div>
     </div>

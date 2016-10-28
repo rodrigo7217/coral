@@ -8,7 +8,7 @@ and open the template in the editor.
     <?php include("includes/head.php"); ?>
     <body>
         <?php include("includes/header.php"); ?>
-        <?php include("content-pages/Logistica-emmagatzematge-emmagatzematge-picking.php"); ?>
+        <?php include("content-pages/logistica-emmagatzematge-emmagatzematge-picking.php"); ?>
         <?php include("includes/footer.php"); ?>
         <?php include("includes/menu-inferior.php"); ?>
         <?php include("includes/scripts.php"); ?>

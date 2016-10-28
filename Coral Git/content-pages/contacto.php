@@ -154,7 +154,7 @@
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <a href="#" target="_blank">
-                            <button class="btn more-info-faqs" style="height: 70px;">
+                            <button class="btn more-info-faqs text-aling-left-m" style="height: 70px;">
                                 Vegi la nostra taula de conversió<br>
                                 volumètrica per calcular M3
                             </button>
@@ -226,7 +226,7 @@
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <a href="#" target="_blank">
-                            <button class="btn more-info-faqs" style="height: 70px;">
+                            <button class="btn more-info-faqs text-aling-left-m" style="height: 70px;">
                                 Vegi la nostra taula de conversió<br>
                                 volumètrica per calcular M3
                             </button>

@@ -20,16 +20,19 @@
                         Paqueteria
                     </a>
                 </div>
-                <div class="option-menu-transport">
-                    <a href="#tonatge">
-                        Gran Tonatge
-                    </a>
+                <div class="menu-sub-tranport">
+                    <div class="option-menu-transport">
+                        <a href="#tonatge">
+                            Gran Tonatge
+                        </a>
+                    </div>
+                    <div class="option-menu-transport">
+                        <a href="#bottom-info-ttn">
+                            Urgent
+                        </a>
+                    </div>
                 </div>
-                <div class="option-menu-transport">
-                    <a href="#bottom-info-ttn">
-                        Urgent
-                    </a>
-                </div>
+                <img id="btn-more-ttn-sub" class="no-desktop" src="./assets/img/transport/btn-more-n.png"/>
             </div>
         </div>
     </div>
@@ -40,15 +43,12 @@
             <p>
                 Per dur a terme de forma eficient el transport nacional per carretera a tot Espanya, Coral forma part de la xarxa IBERTEAM amb 52 agències que ens permet una distribució capil·lar.
             </p>
-            <br>
             <p>
                 Disposem d’un sistema informàtic que connecta totes les places per disposar en temps real la traçabilitat de les expedicions.
             </p>
-            <br>
             <p>
                 Els terminis de lliurament que aconseguim per al transport nacional són d’entre 24/48 h. Podeu consultar els terminis de lliurament per a cada província en el mapa.
             </p>
-            <br>
             <p>
                 Cobertura nacional, Ceuta, Melilla, Andorra, Balears i Canàries.
             </p>
@@ -61,18 +61,18 @@
             </ul>
             <br>
             <a href="#" target="_blank">
-                <button class="btn more-info-faqs pull-left dttn">
+                <button class="btn more-info-faqs pull-left dttn no-movil-768">
                     Càlcul Volumètric - Calcular M3 <img class="icon-download-faqs" style="margin-top: 3px;" src="./assets/img/transport/next-t-icon.png"/>
                 </button>
             </a>
             <a href="#" target="_blank">
-                <button class="btn more-info-faqs pull-right dttn">
+                <button class="btn more-info-faqs pull-right dttn no-movil-768">
                     Descàrrega Carta de Port ADR <img class="icon-download-faqs" src="./assets/img/contact/download-faqs.png"/>
                 </button>
             </a>
         </div>
-        <div class="col-md-5 col-sm-5 col-xs-12">
-            <img class="pull-right" src="./assets/img/transport/map-tranpo-inf-gen.png"/>
+        <div class="col-md-5 col-sm-5 col-xs-12 text-center-movil">
+            <img class="pull-right img-movil-ttn" src="./assets/img/transport/map-tranpo-inf-gen.png"/>
             <img class="log-tranpo-inf-gen" src="./assets/img/transport/log-tranpo-inf-gen.png"/>
         </div>
     </div>
@@ -83,7 +83,9 @@
             <h1>
                 Transport Illes Balears
             </h1>
-            <img class="map-image-int-ttn" src="./assets/img/transport/map-balears.png"/>
+            <div class="text-center-movil">
+                <img class="map-image-int-ttn" src="./assets/img/transport/map-balears.png"/>
+            </div>
         </div>
         <div class="col-md-8 col-sm-8 col-xs-12">
             <div class="content-text-left-ttn">
@@ -111,7 +113,9 @@
             <h1>
                 Transport a Canàries
             </h1>
-            <img class="map-image-int-ttc" src="./assets/img/transport/map-balears2.png"/>
+            <div class="text-center-movil">
+                <img class="map-image-int-ttc" src="./assets/img/transport/map-balears2.png"/>
+            </div>
         </div>
         <div class="col-md-8 col-sm-8 col-xs-12">
             <div class="content-text-left-ttn">
@@ -142,7 +146,8 @@
     </div>
 </div>
 <div id="banner-ttn">
-    <img src="./assets/img/transport/banner-ttn.jpg"/>
+    <img class="no-movil-768" src="./assets/img/transport/banner-ttn.jpg"/>
+    <img class="no-desktop" src="./assets/img/transport/banner-ttn-movil.jpg"/>
 </div>
 <div  id="transport-paqueteria" class="back-blue-light-int transport-paqueteria">
     <div class="container">
@@ -306,37 +311,37 @@
                         <tr>
                             <td><span>13</span> Ciudad Real</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
                     </tbody>
@@ -498,37 +503,37 @@
                         <tr>
                             <td><span>13</span> Ciudad Real</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
                     </tbody>
@@ -574,37 +579,37 @@
                         <tr>
                             <td><span>13</span> Ciudad Real</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
-                        <tr>
+                        <tr class="no-movil-768">
                             <td>&nbsp;</td>
                         </tr>
                     </tbody>

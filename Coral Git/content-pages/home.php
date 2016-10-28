@@ -1,4 +1,4 @@
-<section id="slider-home">
+<section id="slider-home" class="no-movil-468">
     <div id="owl-demo" class="owl-carousel owl-theme">
 
         <div class="item"><img src="./assets/img/home/slide-home.jpg" alt="Slide One"></div>
@@ -7,6 +7,9 @@
         <div class="item"><img src="./assets/img/home/slide-home.jpg" alt="Slide One"></div>
 
     </div>
+</section>
+<section id="slider-home-movil" class="no-desktop-special-home">
+    <img src="./assets/img/home/slide-home-movil.jpg" width="100%">
 </section>
 <section id="options-slide-home-bottom">
     <div class="container">
