@@ -52,12 +52,20 @@
             <p>
                 Cobertura nacional, Ceuta, Melilla, Andorra, Balears i Canàries.
             </p>
+            <div class="text-center-movil no-desktop">
+                <br>
+                <img class="pull-right img-movil-ttn" src="./assets/img/transport/map-tranpo-inf-gen.png"/>
+                <img class="log-tranpo-inf-gen" src="./assets/img/transport/log-tranpo-inf-gen.png"/>
+            </div>
             <ul class="bullets-spcials">
-                <li>Informar als nostres clients amb agilitat</li>
-                <li>Adaptar-se amb facilitat</li>
-                <li>Aportar solucions segons les necessitats concretes dels qui ens confien 
-                    el transport de la seva mercaderia</li>
-                <li>Sempre treballar amb cura i sentiment</li>
+                <li>Paqueteria Industrial</li>
+                <li>Càrrega fraccionada. Grupatge</li>
+                <li>Càrrega completa</li>
+                <li>Servei Express / Urgent</li>
+                <li>Gestió de reemborsaments (garantim seguretat i termini de liquidació convingut)</li>
+                <li>Consulta tracking. Seguiment de les seves expedicions</li>
+                <li>Disponibilitat d’albarà conforme de lliurament digitalitzat des d’Internet</li>
+                <li>Logística inversa</li>
             </ul>
             <br>
             <a href="#" target="_blank">
@@ -71,7 +79,7 @@
                 </button>
             </a>
         </div>
-        <div class="col-md-5 col-sm-5 col-xs-12 text-center-movil">
+        <div class="col-md-5 col-sm-5 col-xs-12 text-center-movil no-movil-768">
             <img class="pull-right img-movil-ttn" src="./assets/img/transport/map-tranpo-inf-gen.png"/>
             <img class="log-tranpo-inf-gen" src="./assets/img/transport/log-tranpo-inf-gen.png"/>
         </div>
@@ -306,10 +314,10 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><span>04</span> Almeria</td>                              
+                            <td><span>35</span> Canarias</td>                              
                         </tr>
                         <tr>
-                            <td><span>13</span> Ciudad Real</td>
+                            <td><span>38</span> Canarias</td>
                         </tr>
                         <tr class="no-movil-768">
                             <td>&nbsp;</td>
@@ -498,10 +506,10 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><span>04</span> Almeria</td>                              
+                            <td><span>35</span> Canarias</td>                              
                         </tr>
                         <tr>
-                            <td><span>13</span> Ciudad Real</td>
+                            <td><span>38</span> Canarias</td>
                         </tr>
                         <tr class="no-movil-768">
                             <td>&nbsp;</td>
@@ -543,7 +551,7 @@
         </div>
     </div>
 </div>
-<div  id="tonatge" class="back-blue-light-int transport-paqueteria">
+<div  id="tonatge" class="back-blue-light-int transport-paqueteria no-movil-768">
     <div class="container">
         <div class="col-md-12 col-sm-12 col-xs-12">
             <h1>
@@ -746,7 +754,7 @@
         </div>
     </div>
 </div>
-<div id="bottom-info-ttn" class="back-white-light-int">
+<div id="bottom-info-ttn" class="back-white-light-int no-movil-768">
     <div class="container">
         <div class="col-md-12 col-sm-12 col-xs-12">
             <h1>Transport urgent</h1>

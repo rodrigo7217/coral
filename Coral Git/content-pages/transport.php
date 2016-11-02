@@ -53,13 +53,13 @@
                         TRANSPORT TERRESTRE
                     </h1>
                     <p>
-                        <a href="#">
+                        <a href="transport-terrestre-nacional.php">
                             Transport Nacional
                         </a>
                         <img class="icon-link-galery-transport" src="./assets/img/transport/next-galery-icon.png"/>
                     </p>
                     <p>
-                        <a href="#">
+                        <a href="transport-terrestre-internacional.php">
                             Transport Internacional
                         </a>
                         <img class="icon-link-galery-transport" src="./assets/img/transport/next-galery-icon.png"/>
@@ -71,8 +71,11 @@
                     <img src="./assets/img/transport/img-galery-2.jpg"/>  
                 </div>
                 <div class="item-info-galery-transport">
+
                     <h1>
-                        TRANSPORT MARÍTIM
+                        <a href="transport-maritim.php">
+                            TRANSPORT MARÍTIM
+                        </a>
                         <img class="icon-link-galery-transport" src="./assets/img/transport/next-galery-icon.png"/>
                     </h1>
                 </div>
@@ -82,8 +85,10 @@
                     <img src="./assets/img/transport/img-galery-3.jpg"/>  
                 </div>
                 <div class="item-info-galery-transport">
-                    <h1>
-                        TRANSPORT AERI
+                    <h1>                       
+                        <a href="transport-aeri.php">
+                            TRANSPORT AERI
+                        </a>
                         <img class="icon-link-galery-transport" src="./assets/img/transport/next-galery-icon.png"/>
                     </h1>
                 </div>

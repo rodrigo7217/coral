@@ -11,7 +11,7 @@
 <div id="content-contact">
     <div class="container">
         <div class="col-md-12 col-xs-12 col-sm-12 ">
-            <div class="item-map">
+            <div class="item-map pad-mov-contact">
                 <div class="col-md-4 col-sm-4 col-xs-12 text-map">
                     <h1>
                         Coral Transports
@@ -30,14 +30,15 @@
                         </a>
                     </p>
                 </div>
-                <div class="col-md-8 col-sm-8 col-xs-12 padd-right-cero">
+                <div class="col-md-8 col-sm-8 col-xs-12 padd-right-cero no-movil-768">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5987.998897326062!2d1.7277561!3d41.3740967!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1477356084158" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>    
                 </div>
             </div>
             <div class="clearfix"></div>
         </div>
+        <iframe class="no-desktop" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5987.998897326062!2d1.7277561!3d41.3740967!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1477356084158" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>    
         <div class="col-md-12 col-xs-12 col-sm-12 ">
-            <div class="item-map">
+            <div class="item-map pad-mov-contact">
                 <div class="col-md-4 col-sm-4 col-xs-12 text-map">
                     <h2>NOVA SEU A MADRID</h2>
                     <h1>
@@ -57,14 +58,13 @@
                         </a>
                     </p>
                 </div>
-                <div class="col-md-8 col-sm-8 col-xs-12 padd-right-cero">
+                <div class="col-md-8 col-sm-8 col-xs-12 padd-right-cero no-movil-768">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2551.84304833888!2d-3.3962347895371034!3d40.48256707319845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1477356238715" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>    
                 </div>
             </div>
             <div class="clearfix"></div>
         </div>
-
-
+        <iframe class="no-desktop" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2551.84304833888!2d-3.3962347895371034!3d40.48256707319845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1477356238715" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>    
     </div>
     <div class="clearfix"></div>
     <div class="container">

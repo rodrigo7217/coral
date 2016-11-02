@@ -48,7 +48,7 @@
                 <table class="table tablev1">
                     <thead>
                         <tr >
-                            <th colspan="9">SORTIDES EXPORTACIÓ</th>
+                            <th colspan="9" class="border-tab-right">SORTIDES EXPORTACIÓ</th>
                             <th colspan="9">SORTIDES IMPORTACIÓ</th>
                         </tr>
                     </thead>
@@ -177,10 +177,139 @@
                 </table>
             </div>
 
-           
+
 
         </div>
     </div>
+</div>
+<div id="content-tab-movil-ttip" class="no-desktop">
+    <table class="table tablev1 table-ttip">
+        <thead>
+            <tr>
+                <th colspan="7" class="border-tab-right text-center">SORTIDES EXPORTACIÓ</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="slim-celda sub-head-tablev1 ">
+                <td>Terminal</td>
+                <td>Dies</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="slim-celda slim-celda-title">
+                <td></td>
+                <td class="slim-celda-title-light">Dll</td>
+                <td class="slim-celda-title-light">Dm</td>
+                <td class="slim-celda-title-light">Dc</td>
+                <td class="slim-celda-title-light">Dj</td>
+                <td class="slim-celda-title-light">Dv</td>            
+                <td align="center">Transit time</td>               
+            </tr>
+            <tr class="slim-celda">        
+                <td><span>Hannover</span></td>           
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>                
+                <td align="center"><span>3 dies</span></td>         
+            </tr>
+            <tr class="slim-celda">
+                <td><span>Düsseldorf</span></td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td align="center"><span>2 dies</span></td>
+            </tr>
+            <tr class="slim-celda">
+                <td><span>Frankfurt</span></td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td align="center"><span>3 dies</span></td>
+            </tr>
+            <tr class="slim-celda">
+                <td><span>Stuttgart</span></td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td align="center"><span>3 dies</span></td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table tablev1 table-ttip">
+        <thead>
+            <tr>
+                <th colspan="7" class="border-tab-right text-center">SORTIDES IMPORTACIÓ</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="slim-celda sub-head-tablev1 ">
+                <td>Terminal</td>
+                <td>Dies</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="slim-celda slim-celda-title">
+                <td></td>
+                <td class="slim-celda-title-light">Dll</td>
+                <td class="slim-celda-title-light">Dm</td>
+                <td class="slim-celda-title-light">Dc</td>
+                <td class="slim-celda-title-light">Dj</td>
+                <td class="slim-celda-title-light">Dv</td>            
+                <td align="center">Transit time</td>               
+            </tr>
+            <tr class="slim-celda">        
+                <td><span>Hannover</span></td>           
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>                
+                <td align="center"><span>3 dies</span></td>         
+            </tr>
+            <tr class="slim-celda">
+                <td><span>Düsseldorf</span></td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td align="center"><span>2 dies</span></td>
+            </tr>
+            <tr class="slim-celda">
+                <td><span>Frankfurt</span></td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td align="center"><span>3 dies</span></td>
+            </tr>
+            <tr class="slim-celda">
+                <td><span>Stuttgart</span></td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td class="bold-celd">X</td>
+                <td align="center"><span>3 dies</span></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="clearfix"></div>
 </div>
 <div id="info-bottom-ttip" class="back-blue-light-int">
     <div class="container">

@@ -2,8 +2,7 @@
     <div class="container">
         <div class="col-md-12 col-xs-12 col-sm-12">
             <h1>
-                Emmagatzematge i<br>
-                Picking
+                Emmagatzematge i Picking
             </h1>
         </div>
     </div>

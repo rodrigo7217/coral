@@ -1,4 +1,4 @@
-<div id="head-contact">
+<div id="head-contact" class="head-tap">
     <div class="container">
         <div class="col-md-12 col-xs-12 col-sm-12">
             <h1>

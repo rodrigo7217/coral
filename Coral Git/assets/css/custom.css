@@ -10,7 +10,12 @@ and open the template in the editor.
 
 @font-face 
 {
-    font-family: 'Apex';
+    font-family: 'Apex-New';
+    src:  url('../fonts/ApexNew-Medium_0.woff') format('woff');
+}
+@font-face 
+{
+    font-family: 'Apex-Book';
     src:  url('../fonts/ApexNew-Book_0.woff') format('woff');
 }
 
@@ -23,11 +28,11 @@ p
     font-size: 16px;
     font-family: Tahoma,Verdana,Segoe,sans-serif!important;
 
-    line-height: 24px;
+    /* line-height: 24px;*/
 }
 h1, h2, h3, h4, h5, h6
 {
-    font-family: 'Apex', sans-serif!important;
+    font-family: 'Apex-New', sans-serif!important;
 }
 li
 {
@@ -42,7 +47,10 @@ li
 {
     display: none;
 }
-
+.no-show
+{
+    display: none;   
+}
 header
 {
     padding-top: 10px;
@@ -84,6 +92,7 @@ header.sticky {
     color: #004B85;
     display: inline-block;
     margin-top: 3px;
+    font-family: Tahoma,Verdana,Segoe,sans-serif !important;
 }
 
 #menu-movil
@@ -99,10 +108,12 @@ header.sticky {
     list-style: none;
     width: 100%;
     margin-left: -40px;
+    text-align: left;
+    margin-top: 15px;
 }
 #menu-top-movil li
 {
-    border-top: 1px solid #005590;
+    /*border-top: 1px solid #005590;*/
     padding-top: 6px;
     padding-bottom: 6px;
 }
@@ -140,6 +151,10 @@ header.sticky {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.sub-menu-items-content 
+{
+    min-height: 193px;
+}
 .sub-menu-head
 {
     background-color: #fff!important;
@@ -150,7 +165,8 @@ header.sticky {
 .sub-menu-head a
 {
     color: #004B85;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: 'Apex-Book', sans-serif !important;
 }
 .sub-menu-head  a:hover
 {
@@ -164,7 +180,7 @@ header.sticky {
 .col-blue-sub
 {
     background-color: #EAEEF1;
-
+    display: none;
 }
 .padd-sub-menu
 {
@@ -439,14 +455,23 @@ header.sticky {
 
 #solicitud-presupuesto
 {
-    background-image: url(../img/home/background-press.png);
-    background-size: cover;
+    /*background-image: url(../img/home/background-press.png);
+    background-size: 100% auto;*/
     min-height: 700px;
     width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
+    position: relative;
 }
-
+#fondo-sp
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
 .fragil-line
 {
     margin-top: 10px;
@@ -465,33 +490,155 @@ header.sticky {
     text-align: left;
     padding-left: 20px;
 }
+
+#d
+{
+    background-image: url(../img/home/background-press.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+}
+
+#solicitar-presupuesto-form .contourNavigation input[type=submit]
+{
+    width: 270px!important;
+    height: 44px;
+    background-color: #F4F6F8;
+    border: 0px;
+    text-align: left;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
 #solicitar-presupuesto-form input
 {
     border-radius: 0px;
     border: 2px solid #F4F7F9; 
     height: 48px;
 }
+#solicitar-presupuesto-form .text
+{
+    width: 100%;
+    border-radius: 0px;
+    border: 2px solid #F4F7F9; 
+    height: 48px;
+}
+
+.largoencm
+{
+    width: 33.3333%;
+    float: left;
+    text-align: right;
+}
+
+.alto
+{
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+}
+.alto label
+{
+    float: left;
+    margin-left: 6px;
+}
+
+.ancho
+{
+    width: 33.3333%;
+    float: left;
+    text-align: left;
+}
+
+.largoencm .text
+{
+    width: 90%!important;
+}
+.largoencm label
+{
+    float: left;
+    margin-left: 12px;
+}
+
+.alto .text
+{
+    width: 90%!important;
+}
+
+.ancho .text
+{
+    width: 90%!important;
+}
+
+.contourField div
+{
+    padding-bottom: 10px;
+}
 .radio-inline input
 {
     height: auto!important;
 }
+.fragil div
+{
+    border-bottom: 1px solid #000;
+}
+
+
 #solicitar-presupuesto-form h1
 {
     margin-bottom: 30px;
+    font-family: 'Apex-New', sans-serif!important;
 }
+#solicitar-presupuesto-form h1
+{
+    margin-bottom: 30px;
+    font-family: 'Apex-New', sans-serif!important;
+}
+#solicitar-presupuesto-form .contourPageName
+{
+    margin-bottom: 30px!important;
+    font-family: 'Apex-New', sans-serif!important;
+    font-size: 48px;
+    color: #004B85;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 #solicitar-presupuesto-form p
 {
     color: #436379;
+    font-family: 'Apex-New', sans-serif!important;
 }
 #solicitar-presupuesto-form label
 {
     color: #3F4755;
-    font-family: 'Apex', sans-serif!important;
+    font-family: 'Apex-New', sans-serif!important;
+    font-size: 16px;
+    font-weight: bold;
 }
 .title-form
 {
     font-size: 48px;
     color: #004B85;
+}
+
+.singlechoice
+{
+    width: 100%;
+    float: left;
+    min-height: 120px;
+}
+.radiobuttonlist br
+{
+    display: none;
+}
+.radiobuttonlist label
+{
+    width: 28px;
+    height: 40px;
+    margin-top: -22px;
+    padding-bottom: 2px;
+    position: relative;
+    vertical-align: middle;
 }
 
 #testimoniales
@@ -634,7 +781,7 @@ header.sticky {
 
 #form-contact-footer .form-control
 {
-    background-color: rgba(0, 74, 124, 0.4);
+    background-color: #436479;
     height: 53px;
     border: 0px solid #fff;
     border-radius: 0px;
@@ -642,6 +789,42 @@ header.sticky {
     padding-left: 20px;
     font-size: 20px; 
     border: 2px solid #698395;
+}
+#form-contact-footer .text
+{
+    width: 100%;
+    background-color: #436479;
+    height: 53px;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    color: #839AA9;
+    padding-left: 20px;
+    font-size: 20px; 
+    border: 2px solid #698395;
+}
+
+#form-contact-footer .text::-webkit-input-placeholder {
+    color:  #839AA9!important;
+    font-size: 20px;
+}
+
+#form-contact-footer .text:-moz-placeholder { /* Firefox 18- */
+    color:  #839AA9!important; 
+    font-size: 20px;
+}
+
+#form-contact-footer .text::-moz-placeholder {  /* Firefox 19+ */
+    color: #839AA9!important;  
+    font-size: 20px;
+}
+
+#form-contact-footer .text:-ms-input-placeholder {  
+    color: #839AA9!important;
+    font-size: 20px;
+}
+#form-contact-footer textarea:-ms-input-placeholder {  
+    color: #839AA9!important;
+    font-size: 20px;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -666,9 +849,19 @@ header.sticky {
 
 #form-contact-footer .text-area
 {
-    background-color: rgba(0, 74, 124, 0.4);
+    background-color: #436479;
     height: 160px;
     border: 2px solid #698395
+}
+#form-contact-footer .contourField textarea
+{
+    background-color: #436479;
+    height: 160px;
+    border: 2px solid #698395;
+    color: #839AA9;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 20px;
 }
 
 #enviar-contact
@@ -680,12 +873,33 @@ header.sticky {
     border-radius: 0px;
     background-image: url(../img/home/btn-contact-enviar.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 37px 26px;
+    background-position: center right;
     text-align: left;
     margin-top: 20px;
     font-size: 20px;
     color: #365F7B;
     padding-left: 20px;
+    background-position-x: 98%;
+}
+#form-contact-footer input[type=submit]
+{
+    width: 100%;
+    height: 53px;
+    background-color: #fff;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    background-image: url(../img/home/btn-contact-enviar.png);
+    background-repeat: no-repeat;
+    background-size: 37px 26px;
+    background-position: center right;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #365F7B;
+    padding-left: 20px;
+    background-position-x: 98%;
+    text-transform: uppercase;
 }
 .item-dir-contact
 {
@@ -945,7 +1159,7 @@ header.sticky {
 {
     font-size: 28px;
     color: #80ABC8;
-    font-family: 'Apex', sans-serif!important;
+    font-family: 'Apex-New', sans-serif!important;
 }
 .more-info-nosaltres
 {
@@ -1085,7 +1299,7 @@ header.sticky {
 }
 .image-team img
 {
-
+    width: 100%;
 }
 .info-team
 {
@@ -1112,7 +1326,7 @@ header.sticky {
 #head-sobre-nosaltres-c p {
     font-size: 28px;
     color: #80ABC8;
-    font-family: 'Apex', sans-serif!important;
+    font-family: 'Apex-New', sans-serif!important;
 }
 #culture-content
 {
@@ -1278,7 +1492,7 @@ header.sticky {
 .item-info-galery-transport
 {
     padding: 20px 20px 20px 20px;
-    min-height: 150px;
+    min-height: 153px;
 }
 .item-info-galery-transport h1
 {
@@ -1289,6 +1503,11 @@ header.sticky {
     color: #212121;
 }
 .item-info-galery-transport p a
+{
+    font-size: 16px;
+    color: #212121;
+}
+.item-info-galery-transport h1 a
 {
     font-size: 16px;
     color: #212121;
@@ -1422,7 +1641,10 @@ header.sticky {
     color: #212121;
     font-family: Tahoma,Verdana,Segoe,sans-serif!important;
 }
-
+.border-tab-right
+{
+    border-right: 1px solid #fff;
+}
 .tablev1
 {
     background-color: #fff;
@@ -1444,6 +1666,7 @@ header.sticky {
     padding: 10px 10px 10px 30px;
     border-top: 0px;
     font-family: Tahoma,Verdana,Segoe,sans-serif!important;
+    font-weight: 200;
 }
 .tablev1 span
 {
@@ -1489,16 +1712,22 @@ header.sticky {
 
 #transport-content-tti
 {
-    background-image: url(../img/transport/back-tti.png);
+    /*background-image: url(../img/transport/back-tti.png);
     background-repeat: no-repeat;
     background-size: 338px 468px;
-    background-position: right top;
+    background-position: right top;*/
     background-color: #fff;
     width: 100%;
     padding-top: 90px;
     padding-bottom: 60px;
+    position: relative;
 }
-
+#fondo-tti
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 .more-info-tti {
     /* width: 273px; */
     background-color: #436479;
@@ -1637,17 +1866,26 @@ header.sticky {
 }
 
 
-#transport-content-tm {
-    background-image: url(../img/transport/back-tm.png);
-    background-repeat: no-repeat;
-    background-size: 466px 448px;
-    background-position: right top;
+#transport-content-tm 
+{
+    /*  background-image: url(../img/transport/back-tm.png);
+      background-repeat: no-repeat;
+      background-size: 466px 448px;
+      background-position: right top;*/
     background-color: #fff;
     width: 100%;
     padding-top: 90px;
     padding-bottom: 60px;
+    position: relative;
 }
+#fondo-tm
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
 
+}
 .border-top-tm
 {
     border-top: 1px solid #EBEFF2;
@@ -1661,16 +1899,22 @@ header.sticky {
 
 
 #transport-content-ta {
-    background-image: url(../img/transport/back-ta.png);
-    background-repeat: no-repeat;
-    background-size: 555px 403px;
-    background-position: right top;
+    /* background-image: url(../img/transport/back-ta.png);
+     background-repeat: no-repeat;
+     background-size: 555px 403px;
+     background-position: right top;*/
     background-color: #fff;
     width: 100%;
     padding-top: 90px;
     padding-bottom: 60px;
+    position: relative;
 }
-
+#fondo-ta
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 .more-info-faqs 
 {
     width: 170px;
@@ -1819,6 +2063,10 @@ header.sticky {
         width: 100%;
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+    #fondo-sp
+    {
+        display: none;
     }
     #solicitar-presupuesto-form
     {
@@ -2005,7 +2253,8 @@ header.sticky {
     {
         margin-top: 30px;
     }
-    #form-contact-footer .form-control {
+    #form-contact-footer .form-control 
+    {
         background-color: #436479;
     }
     #contact
@@ -2017,14 +2266,16 @@ header.sticky {
         margin-top: 50px;
         padding-left: 56px;
     }
-    .content-link-redes {
+    .content-link-redes 
+    {
         width: 200px;
         float: left;
+        margin-left: -15px;
     }
     .logo-footer-movil
     {
         float: left;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .space-logos-movil 
     {
@@ -2044,7 +2295,8 @@ header.sticky {
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    #menu-inferior ul li {
+    #menu-inferior ul li 
+    {
         width: 100%; 
         height: 32px;
     }
@@ -2069,14 +2321,16 @@ header.sticky {
         font-size: 24px!important;
         color: #fff!important;
     }
-    #head-sobre-nosaltres {
+    #head-sobre-nosaltres 
+    {
         padding-top: 50px;
         padding-bottom: 50px;
     }
     /*home*/
 
     /*nosaltres*/
-    .item-nosaltres-text {
+    .item-nosaltres-text 
+    {
         min-height: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -2090,14 +2344,17 @@ header.sticky {
 
 
 
-    #head-sobre-nosaltres-inf {
+    #head-sobre-nosaltres-inf 
+    {
         padding-top: 20px;
         padding-bottom: 3px;
     }
-    #head-sobre-nosaltres-inf h1 {
+    #head-sobre-nosaltres-inf h1 
+    {
         font-size: 32px;
     }
-    #head-infraestructura {
+    #head-infraestructura 
+    {
         background-image: url(../img/nosaltres/banner-infrastructure.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -2105,19 +2362,22 @@ header.sticky {
         min-height: 350px;
         background-color: #EAEEF1;
     }
-    #head-infraestructura h1 {
+    #head-infraestructura h1 
+    {
         position: absolute;
         bottom: 30px;
         left: 30px;
         font-size: 24px;
         text-align: left;
     }
-    #infraestructura-info-content {
+    #infraestructura-info-content 
+    {
         padding-top: 20px;
         padding-bottom: 20px;
     }
 
-    .item-team {
+    .item-team 
+    {
         min-height: 140px;
     }
     .image-team img 
@@ -2126,14 +2386,17 @@ header.sticky {
         float: left;
         margin-right: 20px;
     }
-    .info-team {
+    .info-team 
+    {
         padding-top: 0px;
     }
 
-    #head-sobre-nosaltres-c h1 {
+    #head-sobre-nosaltres-c h1 
+    {
         font-size: 36px;
     }
-    #head-sobre-nosaltres-c p {
+    #head-sobre-nosaltres-c p 
+    {
         font-size: 23px;
     }
     #head-sobre-nosaltres-c 
@@ -2280,6 +2543,16 @@ header.sticky {
     {
         margin-top: -6px;
     }
+    .item-map-movil
+    {
+        width: 100%;
+        min-height: 350px;
+
+    }
+    .pad-mov-contact
+    {
+        padding: 15px 30px 30px 30px;
+    }
     #content-more-info 
     {
         width: 100%;
@@ -2309,7 +2582,18 @@ header.sticky {
     {
         text-align: left !important;
     }
-
+    #content-contact .container
+    {
+        width: 100%!important;
+        padding-left: 0px!important;
+        padding-right: 0px!important;    
+    }
+    #content-contact .col-xs-12
+    {
+        width: 100%!important;
+        padding-left: 0px!important;
+        padding-right: 0px!important;    
+    }
 
     /*contacto*/
 
@@ -2407,9 +2691,79 @@ header.sticky {
         font-size: 24px;
     }
     /*logistic*/
+
+    .content-info-member 
+    {
+        width: 100%;
+        position: relative;
+        bottom: 0px;
+        margin-top: 20px;
+    }
+    .content-info-member p
+    {
+        text-align: left;
+        width: 340px;
+        margin: 0 auto;
+    }
+    .content-info-member img 
+    {
+        float: right;
+        width: 180px;
+    }
+    .divider-green
+    {
+        display: none;
+    }
+    .item-faqs 
+    {
+        padding: 30px 30px 30px 30px;
+    }
+    .text-map 
+    {
+        padding: 50px 0px 0px 0px;
+    }
+    #content-faqs 
+    {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #content-contact 
+    {
+        padding-bottom: 0px;
+    }
+    .transport-paqueteria h1 
+    {
+        font-size: 24px;
+    }
+    .slim-celda td 
+    {
+
+        padding: 6px 6px 6px 6px !important;
+
+
+    }
+    .table-ttip
+    {
+        background-color: #EBEFF2!important;
+    }
+    #content-tab-movil-ttip
+    {
+        width: 100%;
+        background-color: #fff;
+        padding-bottom: 60px;
+    }
+    .head-tap
+    {
+        height: auto!important;
+        padding-bottom: 10px;
+    }
 }
 
 @media (max-width: 468px) {
+    .item-info-galery-transport 
+    {
+        min-height: 80px;
+    }
     .no-movil-468
     {
         display: none;
@@ -2417,5 +2771,33 @@ header.sticky {
     .no-desktop-special-home
     {
         display: inline-block;
+    }
+    .image-team
+    {
+        width: 30%;
+        float: left;
+    }
+    .image-team img
+    {
+        width: 90%;
+    }
+    .info-team 
+    {
+        width: 70%;
+        float: left;
+    }
+
+    .info-team p 
+    {
+        font-size: 14px;
+    }
+
+    .option-menu-transport {
+        width: auto;
+    }
+
+    #content-menu-transport 
+    {
+        position: relative;
     }
 }

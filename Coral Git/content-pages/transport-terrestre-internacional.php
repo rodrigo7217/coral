@@ -38,6 +38,7 @@
     </div>
 </div>
 <div id="transport-content-tti">
+    <img id="fondo-tti" src="./assets/img/transport/back-tti.png" alt=""/>
     <div class="container">
         <div class="col-md-6 col-sm-6 col-xs12">
             <p>

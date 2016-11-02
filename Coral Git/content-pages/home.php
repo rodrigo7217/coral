@@ -1,11 +1,9 @@
 <section id="slider-home" class="no-movil-468">
     <div id="owl-demo" class="owl-carousel owl-theme">
-
         <div class="item"><img src="./assets/img/home/slide-home.jpg" alt="Slide One"></div>
         <div class="item"><img src="./assets/img/home/slide-home.jpg" alt="Slide One"></div>
         <div class="item"><img src="./assets/img/home/slide-home.jpg" alt="Slide One"></div>
         <div class="item"><img src="./assets/img/home/slide-home.jpg" alt="Slide One"></div>
-
     </div>
 </section>
 <section id="slider-home-movil" class="no-desktop-special-home">
@@ -138,6 +136,13 @@
                 <img src="./assets/img/home/logo-member.png"/>
             </div>
         </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 no-desktop">
+
+            <div class="content-info-member">
+                <p>Miembro de:  <img src="./assets/img/home/logo-member.png"/></p>
+
+            </div>
+        </div>
     </div>
 </section>
 <div class="divider-green">
@@ -213,13 +218,207 @@
         </div>
     </div>
 </section>
-<section id="solicitud-presupuesto">
+<section id="solicitud-presupuesto" role="img" aria-label="adorable puppy playing on the grass">
+    <img id="fondo-sp" src="./assets/img/home/background-press.png" alt=""/>
     <div class="container">
         <div class="col-md-8 col-xs-12 col-sm-12">
 
         </div>
         <div class="col-md-4 col-xs-12 col-sm-12">
-            <form id="solicitar-presupuesto-form">
+            <div id="solicitar-presupuesto-form" class="presupuesto">
+                <div id="contour_form_fbf1ecc7eb5e4213a188052066161498" class="contour solicituddepresupuesto">
+                    <form action="/" enctype="multipart/form-data" method="post" novalidate="novalidate">                 <input type="hidden" name="FormId" value="fbf1ecc7-eb5e-4213-a188-052066161498">
+                        <input id="FormName" name="FormName" type="hidden" value="Solicitud de presupuesto"><input data-val="true" data-val-required="The RecordId field is required." id="RecordId" name="RecordId" type="hidden" value="00000000-0000-0000-0000-000000000000"><input id="PreviousClicked" name="PreviousClicked" type="hidden" value="">                 <input type="hidden" name="FormStep" value="0">
+                        <input type="hidden" name="RecordState" value="">
+                        <div class="contourPage">
+                            <h4 class="contourPageName">Sol·licitud de pressupost</h4>
+                            <fieldset class="contourFieldSet" id="dbbbf9df-da76-448f-8bf0-969b9b93a903">
+                                <div class="row-fluid">
+                                    <div class="span12 col-md-12">
+                                        <div class="contourField descipciÃ³n titleanddescription">
+                                            <div>
+                                                <div id="bec7a677-c409-4d37-a76d-6a7341e3c07f">
+                                                    <p>Indica'ns la teva necessitat i et contestem amb la millor solució</p>
+                                                </div>
+                                                <span class="field-validation-valid" data-valmsg-for="bec7a677-c409-4d37-a76d-6a7341e3c07f" data-valmsg-replace="true"></span>                                                </div>
+                                        </div>
+                                        <div class="contourField distanciaenkm shortanswer mandatory alternating">
+                                            <label for="038c5fd1-4d3b-444f-ec27-bbd5c8a18677" class="fieldLabel">
+                                                Distància en km                                                            
+                                                <span class="contourIndicator">*</span>
+                                            </label>
+                                            <div>
+                                                <input type="text" name="038c5fd1-4d3b-444f-ec27-bbd5c8a18677" id="038c5fd1-4d3b-444f-ec27-bbd5c8a18677" class="text" value="" maxlength="500" data-val="true" data-val-required="Please provide a value for DistÃ ncia en km" data-val-regex="Please provide a valid value for DistÃ ncia en km" data-regex="^[0-9]*$">
+                                                <span class="field-validation-valid" data-valmsg-for="038c5fd1-4d3b-444f-ec27-bbd5c8a18677" data-valmsg-replace="true"></span>                                                </div>
+                                        </div>
+                                        <div class="contourField pesoenkg shortanswer mandatory">
+                                            <label for="147415ef-f6c0-42ef-d26e-eeadf0a6b93a" class="fieldLabel">
+                                                Pes es kg                                                             
+                                                <span class="contourIndicator">*</span>
+                                            </label>
+                                            <div>
+                                                <input type="text" name="147415ef-f6c0-42ef-d26e-eeadf0a6b93a" id="147415ef-f6c0-42ef-d26e-eeadf0a6b93a" class="text" value="" maxlength="500" data-val="true" data-val-required="Please provide a value for Pes es kg" data-val-regex="Please provide a valid value for Pes es kg" data-regex="^[0-9]*$">
+                                                <span class="field-validation-valid" data-valmsg-for="147415ef-f6c0-42ef-d26e-eeadf0a6b93a" data-valmsg-replace="true"></span>                                                </div>
+                                        </div>
+                                        <div class="contourField ancho shortanswer mandatory alternating">
+                                            <label for="b27688b6-477a-4e6b-959f-7f6c3906c21d" class="fieldLabel">
+                                                Ample                                                             
+                                                <span class="contourIndicator">*</span>
+                                            </label>
+                                            <div>
+                                                <input type="text" name="b27688b6-477a-4e6b-959f-7f6c3906c21d" id="b27688b6-477a-4e6b-959f-7f6c3906c21d" class="text" value="" maxlength="500" data-val="true" data-val-required="Please provide a value for Ample" data-val-regex="Please provide a valid value for Ample" data-regex="^[0-9]*$">
+                                                <span class="field-validation-valid" data-valmsg-for="b27688b6-477a-4e6b-959f-7f6c3906c21d" data-valmsg-replace="true"></span>                                                
+                                            </div>
+                                        </div>
+                                        <div class="contourField alto shortanswer mandatory">
+                                            <label for="12a21a9c-20e5-4dbf-a717-d229d1648621" class="fieldLabel">
+                                                Alt                                                             
+                                                <span class="contourIndicator">*</span>
+                                            </label>
+                                            <div>
+                                                <input type="text" name="12a21a9c-20e5-4dbf-a717-d229d1648621" id="12a21a9c-20e5-4dbf-a717-d229d1648621" class="text" value="" maxlength="500" data-val="true" data-val-required="Please provide a value for Alt" data-val-regex="Please provide a valid value for Alt" data-regex="^[0-9]*$">
+                                                <span class="field-validation-valid" data-valmsg-for="12a21a9c-20e5-4dbf-a717-d229d1648621" data-valmsg-replace="true"></span>                                                
+                                            </div>
+                                        </div>
+                                        <div class="contourField largoencm shortanswer mandatory alternating">
+
+                                            <label for="cee97bee-011a-40b6-e46c-d8ecd6f2f08c" class="fieldLabel">
+                                                Llarg en cm                                                             
+                                                <span class="contourIndicator">*</span>
+                                            </label>
+                                            <div>
+                                                <input type="text" name="cee97bee-011a-40b6-e46c-d8ecd6f2f08c" id="cee97bee-011a-40b6-e46c-d8ecd6f2f08c" class="text" value="" maxlength="500" data-val="true" data-val-required="Please provide a value for Llarg en cm" data-val-regex="Please provide a valid value for Llarg en cm" data-regex="^[0-9]*$">
+                                                <span class="field-validation-valid" data-valmsg-for="cee97bee-011a-40b6-e46c-d8ecd6f2f08c" data-valmsg-replace="true">                                     
+                                                </span>                                                
+                                            </div>
+                                        </div>
+                                        <div class="contourField fragil singlechoice">
+                                            <label for="152f03b7-3bc4-4233-dcc9-005d9b519971" class="fieldLabel">
+                                                Fràgil                                                    
+                                            </label>
+                                            <div>
+                                                <span class="radiobuttonlist" id="152f03b7-3bc4-4233-dcc9-005d9b519971">
+                                                    <input type="radio" name="152f03b7-3bc4-4233-dcc9-005d9b519971" id="152f03b7-3bc4-4233-dcc9-005d9b519971_0" value="Si" checked="checked">
+                                                    <label for="152f03b7-3bc4-4233-dcc9-005d9b519971_0">Si</label>
+                                                    <br>
+                                                    <input type="radio" name="152f03b7-3bc4-4233-dcc9-005d9b519971" id="152f03b7-3bc4-4233-dcc9-005d9b519971_1" value="No">
+                                                    <label for="152f03b7-3bc4-4233-dcc9-005d9b519971_1">No</label>
+                                                    <br>
+                                                </span>
+                                                <span class="field-validation-valid" data-valmsg-for="152f03b7-3bc4-4233-dcc9-005d9b519971" data-valmsg-replace="true"></span>                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div style="display: none">
+                                <input type="text" name="fbf1ecc7eb5e4213a188052066161498">
+                            </div>
+                            <div class="contourNavigation row-fluid">
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn primary" value="Enviar" name="submitbtn">
+                                    <img class="pull-right" src="./assets/img/home/icon-submit-preess.png"/>
+                                </div>
+                            </div>
+                        </div>
+                        <input name="ufprt" type="hidden" value="4A6C16263239E0AC1AA918A8B6EC118719403FC123F0B0DF44A396D620ED604FA717F6F38D914BB9C01B5A0DFF3389B66CB25AD003486900324F40AE1A76ADAE8B89E74FFE66AAA6FE62BEB3270470DDC85FE7C4AA5790FD513888439FC480AF1BC46155D0A6D8F836C9E9F62A0D67F666AA5F4A976ACD388542FDB01E34A7CD23B76912B25BB7F7F9D6979B6B5915AF"></form>         </div>
+
+                <input type="hidden" id="fsConditions_fbf1ecc7eb5e4213a188052066161498" value="{}">
+                <input type="hidden" id="fieldConditions_fbf1ecc7eb5e4213a188052066161498" value="{}">
+                <input type="hidden" id="values_fbf1ecc7eb5e4213a188052066161498" value="{&quot;bec7a677-c409-4d37-a76d-6a7341e3c07f&quot;:&quot;&quot;,&quot;038c5fd1-4d3b-444f-ec27-bbd5c8a18677&quot;:&quot;&quot;,&quot;147415ef-f6c0-42ef-d26e-eeadf0a6b93a&quot;:&quot;&quot;,&quot;b27688b6-477a-4e6b-959f-7f6c3906c21d&quot;:&quot;&quot;,&quot;12a21a9c-20e5-4dbf-a717-d229d1648621&quot;:&quot;&quot;,&quot;cee97bee-011a-40b6-e46c-d8ecd6f2f08c&quot;:&quot;&quot;,&quot;152f03b7-3bc4-4233-dcc9-005d9b519971&quot;:&quot;Si&quot;}">
+                <script src="/App_Plugins/UmbracoForms/Assets/umbracoforms-dependencies.js" type="text/javascript"></script>
+                <script type="text/javascript">
+                    var contourDateFormat = "dd/mm/yy";
+
+                    //Check for library dependencies
+                    performDependencyChecks('fbf1ecc7eb5e4213a188052066161498');
+                </script>
+                <script src="/App_Plugins/UmbracoForms/Assets/umbracoforms.js" type="text/javascript"></script>
+                <script src="/App_Plugins/UmbracoForms/Assets/umbracoforms-conditions.js" type="text/javascript"></script>
+                <script type="text/javascript">
+                    (function ($, formId) {
+                        var contourFieldValues,
+                                recordValues = JSON.parse($("#values_" + formId).val()),
+                                fsConditions = JSON.parse($("#fsConditions_" + formId).val()),
+                                fieldConditions = JSON.parse($("#fieldConditions_" + formId).val()),
+                                form = $("#contour_form_" + formId);
+
+                        $(function () {
+                            $(".contourPage input, .contourPage textarea, .contourPage select", form).change(function () {
+                                PopulateFieldValues();
+                                CheckRules();
+                            });
+
+                            PopulateFieldValues();
+                            CheckRules();
+                        });
+
+                        function PopulateFieldValues() {
+                            PopulateRecordValues();
+
+                            $(".contourPage select", form).each(function () {
+                                contourFieldValues[$(this).attr("id")] = $("option[value='" + $(this).val() + "']", $(this)).text();
+                            });
+
+                            $(".contourPage textarea", form).each(function () {
+                                contourFieldValues[$(this).attr("id")] = $(this).val();
+                            });
+
+                            $(".contourPage input", form).each(function () {
+
+                                if ($(this).attr('type') == "text" || $(this).attr("type") == "hidden") {
+                                    contourFieldValues[$(this).attr("id")] = $(this).val();
+                                }
+
+                                if ($(this).attr('type') == "radio") {
+                                    if ($(this).is(':checked')) {
+                                        contourFieldValues[$(this).attr("name")] = $(this).val();
+                                    }
+                                }
+
+                                if ($(this).attr('type') == "checkbox") {
+
+                                    if ($(this).attr('id') != $(this).attr('name')) {
+                                        if ($(this).is(':checked')) {
+                                            if (contourFieldValues[$(this).attr("name")] == null) {
+                                                contourFieldValues[$(this).attr("name")] = $(this).val();
+                                            } else {
+                                                contourFieldValues[$(this).attr("name")] += "," + $(this).val();
+                                            }
+                                        }
+                                    } else {
+
+                                        contourFieldValues[$(this).attr("name")] = $(this).is(':checked').toString();
+                                    }
+                                }
+
+                            });
+                        }
+
+                        function PopulateRecordValues() {
+                            var fieldId;
+                            contourFieldValues = new Array();
+
+                            for (fieldId in recordValues) {
+                                if ($("#" + fieldId).length === 0) {
+                                    contourFieldValues[fieldId] = recordValues[fieldId];
+                                }
+                            }
+                        }
+
+                        function CheckRules() {
+                            umbracoForms.conditions.handle({
+                                fsConditions: fsConditions,
+                                fieldConditions: fieldConditions,
+                                values: contourFieldValues
+                            });
+                        }
+
+                    }(jQuery, 'fbf1ecc7eb5e4213a188052066161498'));
+
+                </script>
+                <link rel="stylesheet" href="/app_plugins/umbracoforms/assets/defaultform.css">
+            </div>
+            <!--<form id="solicitar-presupuesto-form">
                 <h1 class="title-form">
                     Sol·licitud de pressupost
                 </h1>
@@ -261,7 +460,7 @@
 
                 <button type="submit" class="enviar-pres">ENVIAR</button>
                 <img class="pull-right" src="./assets/img/home/icon-submit-preess.png"/>
-            </form>
+            </form>-->
         </div>
     </div>
 </section>

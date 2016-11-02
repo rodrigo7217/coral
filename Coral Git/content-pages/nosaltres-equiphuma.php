@@ -22,7 +22,7 @@
                 <div class="info-team">
                     <p>
                         Direcció<br>
-                        <b>Joan Comas</b>
+                        <b>Joan Comas</b><br>
                         <a href="mailto:joancomas@coraltransports.com">
                             joancomas@coraltransports.com
                         </a>
@@ -38,7 +38,7 @@
                 <div class="info-team">
                     <p>
                         Administració i RRHH<br>
-                        <b>Encarna Alcalde</b>
+                        <b>Encarna Alcalde</b><br>
                         <a href="mailto:encarna@coraltransports.com">
                             encarna@coraltransports.com
                         </a>
@@ -54,7 +54,7 @@
                 <div class="info-team">
                     <p>
                         Responsable de Qualitat<br>
-                        <b>Sergi Poveda</b>
+                        <b>Sergi Poveda</b><br>
                         <a href="mailto:calidad@coraltransports.com">
                             calidad@coraltransports.com
                         </a>
@@ -70,7 +70,7 @@
                 <div class="info-team">
                     <p>
                         Responsable d’Informàtica<br>
-                        <b>Manel López</b>
+                        <b>Manel López</b><br>
                         <a href="mailto:mlopez@coraltransports.com">
                             mlopez@coraltransports.com
                         </a>
@@ -86,7 +86,7 @@
                 <div class="info-team">
                     <p>
                         Director Logístic<br>
-                        <b>Rafael Moreno</b>
+                        <b>Rafael Moreno</b><br>
                         <a href="mailto:rmoreno@coraltransports.com">
                             rmoreno@coraltransports.com
                         </a>
@@ -102,7 +102,7 @@
                 <div class="info-team">
                     <p>
                         Responsable Tràfic Nacional<br>
-                        <b>Carlos Artal</b>
+                        <b>Carlos Artal</b><br>
                         <a href="mailto:cartal@coraltransports.com">
                             cartal@coraltransports.com
                         </a>
@@ -118,7 +118,7 @@
                 <div class="info-team">
                     <p>
                         Responsable de Catalunya<br>
-                        <b>Alfons Borrell</b>
+                        <b>Alfons Borrell</b><br>
                         <a href="mailto:aborell@coraltransports.com">
                             aborell@coraltransports.com
                         </a>
@@ -134,7 +134,7 @@
                 <div class="info-team">
                     <p>
                         Direcció<br>
-                        <b>Joan Comas</b>
+                        <b>Joan Comas</b><br>
                         <a href="mailto:joancomas@coraltransports.com">
                             joancomas@coraltransports.com
                         </a>
@@ -151,7 +151,7 @@
                     <p>
                         Responsable d’Internacional<br>
                         Terrestre<br>
-                        <b>Marta Papaseit</b>
+                        <b>Marta Papaseit</b><br>
                         <a href="mailto:mpapaseit@coraltransports.com">
                             mpapaseit@coraltransports.com
                         </a>
@@ -167,7 +167,7 @@
                 <div class="info-team">
                     <p>
                         Responsable de Marítim i Aeri<br>
-                        <b>Sandra Comas</b>
+                        <b>Sandra Comas</b><br>
                         <a href="mailto:sandracomas@coraltransports.com">
                             sandracomas@coraltransports.com
                         </a>
@@ -183,7 +183,7 @@
                 <div class="info-team">
                     <p>
                         Atenció al Client<br>
-                        <b>Nuria Sardà</b>
+                        <b>Nuria Sardà</b><br>
                         <a href="mailto:areaclientes1@coraltransports.com">
                             areaclientes1@coraltransports.com
                         </a>
@@ -199,7 +199,7 @@
                 <div class="info-team">
                     <p>
                         Direcció de vendes<br>
-                        <b>Robert Aguilar</b>
+                        <b>Robert Aguilar</b><br>
                         <a href="mailto:raguilar@coraltransports.com">
                             raguilar@coraltransports.com
                         </a>
@@ -215,7 +215,7 @@
                 <div class="info-team">
                     <p>
                         Coordinadora Comercial<br>
-                        <b>Montse Pedrol</b>
+                        <b>Montse Pedrol</b><br>
                         <a href="mailto:mpedrol@coraltransports.com">
                             mpedrol@coraltransports.com
                         </a>
@@ -231,7 +231,7 @@
                 <div class="info-team">
                     <p>
                         Cap de Magatzem<br>
-                        <b>Guillermo Aragall</b>
+                        <b>Guillermo Aragall</b><br>
                         <a href="mailto:info@coraltransports.com">
                             info@coraltransports.com
                         </a>

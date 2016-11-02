@@ -2,7 +2,7 @@
     <div class="container">
         <div class="col-md-12 col-xs-12 col-sm-12">
             <h1>
-                Infraestructura
+                Infraestructure
             </h1>
             <a href="#" target="_blank">
                 <button class="btn more-info-nosaltres-inf no-movil-768">

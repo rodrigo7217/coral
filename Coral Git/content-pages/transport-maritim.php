@@ -20,6 +20,7 @@
     </div>
 </div>
 <div id="transport-content-tm">
+    <img id="fondo-tm" src="./assets/img/transport/back-tm.png" alt=""/>
     <div class="container">
         <div class="col-md-6 col-sm-6 col-12">
             <p>

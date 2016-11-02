@@ -15,14 +15,29 @@
             }
         });
 
-        $("#sobre-nosaltres-sub").mouseleave(function () {
-            $("#sobre-nosaltres-sub").hide();
-        });
-        $("#transport-sub").mouseleave(function () {
-            $("#transport-sub").hide();
-        });
+        /*     $("#sobre-nosaltres-sub").mouseleave(function () {
+         $("#sobre-nosaltres-sub").hide();
+         });
+         $("#transport-sub").mouseleave(function () {
+         $("#transport-sub").hide();
+         });*/
 
-
+        $(".space-text-menu a").mouseenter(function () {
+            var menus = $(this).attr('menusub');
+            $('.img-default').hide();
+            $('.no-show').hide();
+            $('.'+ menus).show();
+        });
+        $(".space-text-menu-two a").mouseenter(function () {
+            var menus = $(this).attr('menusub');
+            $('.img-default-2').hide();
+            $('.no-show').hide();
+            $('.col-blue-sub').show();
+            $('.'+ menus).show();
+        });
+   
+        
+        
         $("#owl-demo").owlCarousel({
             navigation: false, // Show next and prev buttons
             slideSpeed: 300,
